@@ -1,1 +1,34 @@
-workspace/
+# Vitis IDE
+_ide/.wsdata/
+_ide/logs/
+_ide/workspace_journal*.py
+_ide/settings.json
+vitis_journal.py
+
+# HLS build artifacts
+**/.autopilot/
+**/.cache/
+**/.debug/
+**/csim/
+**/impl/
+**/logs/
+**/reports/
+
+# Generated HDL (syn report 保留, HDL 可重新生成)
+**/syn/verilog/
+**/syn/vhdl/
+
+# Misc generated files
+compile_commands.json
+hls_data.json
+kernel.xml
+config.cmdline
+*.hlscompile_summary
+*.hlsrun_csim_summary
+*.zip
+*.jou
+*.log
+*.o
+*.d
+*.exe
+*.pb3
