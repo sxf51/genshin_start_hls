@@ -11,28 +11,28 @@
             <column name="">(4) simplification,  65, simplification of applied user inline pragmas</column>
             <column name="">, , </column>
             <column name="Array/Struct">, , After user array partition and struct aggregate/disaggregate pragmas are applied</column>
-            <column name="">(1) array partition, 180, user array partition pragmas are applied</column>
-            <column name="">(2) simplification,  92, simplification of applied user array partition &amp; struct aggregate/disaggregate pragmas</column>
-            <column name="">(3) aggregate/disaggregate,  92, user struct aggregate/disaggregate pragmas are applied</column>
-            <column name="">(4) array reshape,  92, apply array reshape pragmas</column>
-            <column name="">(5) access patterns,  93, array access pattern optmizations</column>
+            <column name="">(1) array partition, 197, user array partition pragmas are applied</column>
+            <column name="">(2) simplification, 201, simplification of applied user array partition &amp; struct aggregate/disaggregate pragmas</column>
+            <column name="">(3) aggregate/disaggregate, 201, user struct aggregate/disaggregate pragmas are applied</column>
+            <column name="">(4) array reshape, 201, apply array reshape pragmas</column>
+            <column name="">(5) access patterns, 199, array access pattern optmizations</column>
             <column name="">, , </column>
             <column name="Performance">, , After transformations are applied to meet performance pragma targets</column>
-            <column name="">(1) loop simplification,  93, loop and instruction simplification</column>
-            <column name="">(2) parallelization,  92, loops are unrolled or pipelined to meet performance targets</column>
-            <column name="">(3) array partition, 121, arrays are partitioned to meet performance targets</column>
-            <column name="">(4) simplification,  95, simplification of design after performance transformations</column>
+            <column name="">(1) loop simplification, 199, loop and instruction simplification</column>
+            <column name="">(2) parallelization, 198, loops are unrolled or pipelined to meet performance targets</column>
+            <column name="">(3) array partition, 198, arrays are partitioned to meet performance targets</column>
+            <column name="">(4) simplification, 198, simplification of design after performance transformations</column>
             <column name="">, , </column>
             <column name="HW Transforms">, , After hardware transfomations</column>
-            <column name="">(1) lowering,  97, initial conversion to HW specific instructions</column>
-            <column name="">(2) optimizations, 107, high level synthesis optimizations</column>
+            <column name="">(1) lowering, 200, initial conversion to HW specific instructions</column>
+            <column name="">(2) optimizations, 210, high level synthesis optimizations</column>
         </table>
     </item>
     <item name="Instructions per Function for each Compilation Phase">
         <hiertable>
             <header size="7" col0="Function" col1="Location" col2="Compile/Link" col3="Unroll/Inline" col4="Array/Struct" col5="Performance" col6="HW Transforms"/>
             <rows>
-                <row id="0" col0="fir" col1="fir.cpp:15" col2="48" col3="65" col4="93" col5="95" col6="107"/>
+                <row id="0" col0="fir" col1="fir.cpp:15" col2="48" col3="65" col4="199" col5="198" col6="210"/>
             </rows>
             <notes/>
         </hiertable>

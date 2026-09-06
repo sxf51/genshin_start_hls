@@ -23515,3 +23515,1286 @@ ERROR: BuildSummary could not find BuildStep for cmdStepID: 'b6a6b0dc-dffa-4738-
 2026-09-06 14:27:23 [debug] : SELECTED {"0":"hls-report-section-general-information::urn:analysis-report/fir-1838249401/synthesis-1136165760"}
 2026-09-06 14:27:23 [debug] : Widget was activated, but did not accept focus after 2000ms: rigel-hls:report-widget:urn:analysis-report/fir-1838249401/synthesis-1136165760 
 2026-09-06 14:28:11 [debug] : No tree item with id 'c-@--@-/0:genshin_start_hls (fir128)' found. 
+2026-09-06 14:28:18 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-09-06 14:28:18 [debug] : [ProjectDecorator] tree decoration updated 
+2026-09-06 14:28:18 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-09-06 14:28:18 [debug] : [ProjectDecorator] tree decoration updated 
+2026-09-06 14:28:18 [debug] : start navigation 1 
+2026-09-06 14:28:18 [debug] : end navigation 0 
+2026-09-06 14:28:18 [debug] : ending navigation with location {"uri":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp","type":0,"context":{"line":34,"character":4}} 
+2026-09-06 14:28:19 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-09-06 14:28:19 [debug] : [ProjectDecorator] tree decoration updated 
+2026-09-06 14:28:19 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["37b6ddd9-6fe0-4f7b-a984-76a2c31423be",null,24,null,null,null,null,"/home/lipuze/genshin_start_hls/fir128/workspace/baseline"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-09-06 14:28:19 [debug] : >>>>>fetching >>>getComponentIncludes>>>>>>> {"0":"/home/lipuze/genshin_start_hls/fir11/workspace/baseline"}
+2026-09-06 14:28:19 [debug] : Received event from notification service: UPDATE_COMPILE_COMMAND. 
+2026-09-06 14:28:19 [debug] : >>>>>fetching >>>getComponentIncludes>>>>>>> {"0":"/home/lipuze/genshin_start_hls/fir128/workspace/baseline"}
+2026-09-06 14:28:19 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 2,
+        "startColumn": 29,
+        "endLineNumber": 6,
+        "endColumn": 6
+      },
+      "rangeLength": 195,
+      "text": "[\n        \"-I/home/lipuze/amdfpga/2026.1/Vitis/include\",\n        \"-I/home/lipuze/amdfpga/2026.1/Vitis/include/etc\",\n        \"-I/home/lipuze/amdfpga/2026.1/Vitis/lnx64/tools/auto_cc/include\"\n    ]",
+      "rangeOffset": 30,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\n",
+  "isEolChange": false,
+  "versionId": 25,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///home/lipuze/genshin_start_hls/_ide/settings.json"}
+2026-09-06 14:28:19 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///home/lipuze/genshin_start_hls/_ide/settings.json"}
+2026-09-06 14:28:19 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/lipuze/genshin_start_hls/_ide/settings.json"}
+2026-09-06 14:28:19 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"file:///home/lipuze/genshin_start_hls/_ide/settings.json"}
+2026-09-06 14:28:19 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///home/lipuze/genshin_start_hls/_ide/settings.json"}
+2026-09-06 14:28:19 [debug] : MonacoEditorModel.cancelSave {"0":"file:///home/lipuze/genshin_start_hls/_ide/settings.json"}
+2026-09-06 14:28:19 [debug] : MonacoEditorModel.cancelSave {"0":"file:///home/lipuze/genshin_start_hls/_ide/settings.json"}
+2026-09-06 14:28:19 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/lipuze/genshin_start_hls/_ide/settings.json"}
+2026-09-06 14:28:19 [debug] : MonacoEditorModel.cancelSave {"0":"file:///home/lipuze/genshin_start_hls/_ide/settings.json"}
+2026-09-06 14:28:19 [debug] : TextEditor is disposed! 
+2026-09-06 14:28:19 [debug] : TextEditor is disposed! 
+2026-09-06 14:28:20 [debug] : start navigation 1 
+2026-09-06 14:28:20 [debug] : end navigation 0 
+2026-09-06 14:28:20 [debug] : ending navigation with location {"uri":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp","type":0,"context":{"line":33,"character":52}} 
+2026-09-06 14:28:20 [debug] : start navigation 1 
+2026-09-06 14:28:20 [debug] : end navigation 0 
+2026-09-06 14:28:20 [debug] : ending navigation with location {"uri":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp","type":1,"context":{"start":{"line":33,"character":51},"end":{"line":33,"character":57}}} 
+2026-09-06 14:28:20 [debug] : start navigation 1 
+2026-09-06 14:28:20 [debug] : end navigation 0 
+2026-09-06 14:28:20 [debug] : ending navigation with location {"uri":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp","type":1,"context":{"start":{"line":33,"character":0},"end":{"line":34,"character":0}}} 
+2026-09-06 14:28:21 [debug] : start navigation 1 
+2026-09-06 14:28:21 [debug] : end navigation 0 
+2026-09-06 14:28:21 [debug] : ending navigation with location {"uri":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp","type":0,"context":{"line":33,"character":52}} 
+2026-09-06 14:28:21 [debug] : start navigation 1 
+2026-09-06 14:28:21 [debug] : end navigation 0 
+2026-09-06 14:28:21 [debug] : ending navigation with location {"uri":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp","type":1,"context":{"start":{"line":33,"character":51},"end":{"line":33,"character":57}}} 
+2026-09-06 14:28:23 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 34,
+        "startColumn": 52,
+        "endLineNumber": 34,
+        "endColumn": 58
+      },
+      "rangeLength": 6,
+      "text": "b",
+      "rangeOffset": 1111,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\n",
+  "isEolChange": false,
+  "versionId": 374,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:28:23 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:28:23 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:28:23 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:28:23 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:28:23 [debug] : start navigation 1 
+2026-09-06 14:28:23 [debug] : end navigation 0 
+2026-09-06 14:28:23 [debug] : ending navigation with location {"uri":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp","type":2,"context":{"range":{"start":{"line":33,"character":51},"end":{"line":33,"character":57}},"rangeLength":6,"text":"b"}} 
+2026-09-06 14:28:23 [debug] : start navigation 1 
+2026-09-06 14:28:23 [debug] : end navigation 0 
+2026-09-06 14:28:23 [debug] : ending navigation with location {"uri":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp","type":0,"context":{"line":33,"character":52}} 
+2026-09-06 14:28:23 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 34,
+        "startColumn": 53,
+        "endLineNumber": 34,
+        "endColumn": 53
+      },
+      "rangeLength": 0,
+      "text": "l",
+      "rangeOffset": 1112,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\n",
+  "isEolChange": false,
+  "versionId": 375,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:28:23 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:28:23 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:28:23 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:28:23 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:28:23 [debug] : start navigation 1 
+2026-09-06 14:28:23 [debug] : end navigation 0 
+2026-09-06 14:28:23 [debug] : ending navigation with location {"uri":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp","type":2,"context":{"range":{"start":{"line":33,"character":52},"end":{"line":33,"character":52}},"rangeLength":0,"text":"l"}} 
+2026-09-06 14:28:23 [debug] : start navigation 1 
+2026-09-06 14:28:23 [debug] : end navigation 0 
+2026-09-06 14:28:23 [debug] : ending navigation with location {"uri":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp","type":0,"context":{"line":33,"character":53}} 
+2026-09-06 14:28:23 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 34,
+        "startColumn": 54,
+        "endLineNumber": 34,
+        "endColumn": 54
+      },
+      "rangeLength": 0,
+      "text": "o",
+      "rangeOffset": 1113,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\n",
+  "isEolChange": false,
+  "versionId": 376,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:28:23 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:28:23 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:28:23 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:28:23 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:28:23 [debug] : start navigation 1 
+2026-09-06 14:28:23 [debug] : end navigation 0 
+2026-09-06 14:28:23 [debug] : ending navigation with location {"uri":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp","type":2,"context":{"range":{"start":{"line":33,"character":53},"end":{"line":33,"character":53}},"rangeLength":0,"text":"o"}} 
+2026-09-06 14:28:23 [debug] : start navigation 1 
+2026-09-06 14:28:23 [debug] : end navigation 0 
+2026-09-06 14:28:23 [debug] : ending navigation with location {"uri":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp","type":0,"context":{"line":33,"character":54}} 
+2026-09-06 14:28:24 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 34,
+        "startColumn": 55,
+        "endLineNumber": 34,
+        "endColumn": 55
+      },
+      "rangeLength": 0,
+      "text": "c",
+      "rangeOffset": 1114,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\n",
+  "isEolChange": false,
+  "versionId": 377,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:28:24 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:28:24 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:28:24 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:28:24 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:28:24 [debug] : start navigation 1 
+2026-09-06 14:28:24 [debug] : end navigation 0 
+2026-09-06 14:28:24 [debug] : ending navigation with location {"uri":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp","type":2,"context":{"range":{"start":{"line":33,"character":54},"end":{"line":33,"character":54}},"rangeLength":0,"text":"c"}} 
+2026-09-06 14:28:24 [debug] : start navigation 1 
+2026-09-06 14:28:24 [debug] : end navigation 0 
+2026-09-06 14:28:24 [debug] : ending navigation with location {"uri":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp","type":0,"context":{"line":33,"character":55}} 
+2026-09-06 14:28:24 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 34,
+        "startColumn": 56,
+        "endLineNumber": 34,
+        "endColumn": 56
+      },
+      "rangeLength": 0,
+      "text": "k",
+      "rangeOffset": 1115,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\n",
+  "isEolChange": false,
+  "versionId": 378,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:28:24 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:28:24 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:28:24 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:28:24 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:28:24 [debug] : start navigation 1 
+2026-09-06 14:28:24 [debug] : end navigation 0 
+2026-09-06 14:28:24 [debug] : ending navigation with location {"uri":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp","type":2,"context":{"range":{"start":{"line":33,"character":55},"end":{"line":33,"character":55}},"rangeLength":0,"text":"k"}} 
+2026-09-06 14:28:24 [debug] : start navigation 1 
+2026-09-06 14:28:24 [debug] : end navigation 0 
+2026-09-06 14:28:24 [debug] : ending navigation with location {"uri":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp","type":0,"context":{"line":33,"character":56}} 
+2026-09-06 14:28:24 [debug] : start navigation 1 
+2026-09-06 14:28:24 [debug] : end navigation 0 
+2026-09-06 14:28:24 [debug] : ending navigation with location {"uri":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp","type":0,"context":{"line":34,"character":4}} 
+2026-09-06 14:28:25 [debug] : MonacoEditorModel.cancelSave {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:28:25 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/lipuze/amdfpga/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-09-06 14:28:25 [debug] : MonacoEditorModel.cancelSave {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:28:26 [debug] : start navigation 1 
+2026-09-06 14:28:26 [debug] : end navigation 0 
+2026-09-06 14:28:26 [debug] : ending navigation with location {"uri":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp","type":0,"context":{"line":38,"character":27}} 
+2026-09-06 14:28:33 [debug] : [Hls Flow Server] Executing method:runOperation with connection:(object). {"0":"request:","1":{"componentLocation":"/home/lipuze/genshin_start_hls/fir128/workspace/baseline","operationType":1}}
+2026-09-06 14:28:33 [debug] : Received event from notification service: ON_DID_LAUNCH_START. 
+2026-09-06 14:28:41 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2026-09-06 14:28:41 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["c6edf599-4aae-44d5-bca7-17b639685381",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-09-06 14:28:41 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2026-09-06 14:28:41 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["71a35c10-3b1c-45bd-8ba1-91c5b8037967",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-09-06 14:28:41 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2026-09-06 14:28:58 [debug] : [RIGEL_OUTPUT] File does not exist: /home/lipuze/genshin_start_hls/fir128/workspace/baseline/fir.cpp 
+2026-09-06 14:28:59 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2026-09-06 14:28:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["414d4007-101b-43f1-9013-38eb2fd98b08",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-09-06 14:28:59 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2026-09-06 14:28:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["779ca7ac-ee5f-4a32-abe9-5670b42ba3d7",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-09-06 14:28:59 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2026-09-06 14:29:18 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2026-09-06 14:29:19 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2026-09-06 14:29:19 [debug] : [Hls Flow Server] Executing method:cancelOperation with connection:(object). {"0":"request:","1":{"componentLocation":"/home/lipuze/genshin_start_hls/fir128/workspace/baseline","operationType":1}}
+2026-09-06 14:29:19 [debug] : Received event from notification service: ON_DID_LAUNCH_STOP. 
+2026-09-06 14:29:19 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["cbf8e804-39ca-4154-96f7-c8ddf13ffb8b",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-09-06 14:29:19 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["c670d353-5fba-42f8-85f4-f51482e502cf",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-09-06 14:29:19 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2026-09-06 14:29:19 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["664f087b-6b2c-4318-8568-5e239110402a",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-09-06 14:29:19 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2026-09-06 14:29:19 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["1d458600-8b3c-4362-b682-1a09225076d9",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-09-06 14:29:19 [debug] : Received event from notification service: ON_DID_REPORT_TIMESTAMP_CHANGE. 
+2026-09-06 14:29:20 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2026-09-06 14:29:20 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2026-09-06 14:29:27 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/lipuze/amdfpga/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-09-06 14:29:35 [debug] : 11 {"0":7,"1":4,"2":15,"3":true}
+2026-09-06 14:29:35 [debug] : SELECTED {"0":"hls-report-section-general-information::urn:analysis-report/fir-1838249401/synthesis-1136165760"}
+2026-09-06 14:29:35 [debug] : 349 {"0":7,"1":342,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 349 {"0":144,"1":205,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 349 {"0":174,"1":175,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 349 {"0":299,"1":50,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 349 {"0":535,"1":186,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 349 {"0":565,"1":216,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 349 {"0":668,"1":319,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 349 {"0":948,"1":599,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 349 {"0":1155,"1":806,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 349 {"0":1185,"1":836,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 349 {"0":1319,"1":970,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 349 {"0":1464,"1":1115,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 349 {"0":1494,"1":1145,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 349 {"0":1681,"1":1332,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 349 {"0":1930,"1":1581,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 349 {"0":1970,"1":1621,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 349 {"0":2153,"1":1804,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 349 {"0":2437,"1":2088,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 703 {"0":7,"1":696,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 703 {"0":144,"1":559,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 703 {"0":174,"1":529,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 703 {"0":299,"1":404,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 703 {"0":535,"1":168,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 703 {"0":565,"1":138,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 703 {"0":668,"1":35,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 703 {"0":948,"1":245,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 703 {"0":1155,"1":452,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 703 {"0":1185,"1":482,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 703 {"0":1319,"1":616,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 703 {"0":1464,"1":761,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 703 {"0":1494,"1":791,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 703 {"0":1681,"1":978,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 703 {"0":1930,"1":1227,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 703 {"0":1970,"1":1267,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 703 {"0":2153,"1":1450,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 703 {"0":2437,"1":1734,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 760 {"0":7,"1":753,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 760 {"0":144,"1":616,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 760 {"0":174,"1":586,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 760 {"0":299,"1":461,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 760 {"0":535,"1":225,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 760 {"0":565,"1":195,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 760 {"0":668,"1":92,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 760 {"0":948,"1":188,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 760 {"0":1155,"1":395,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 760 {"0":1185,"1":425,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 760 {"0":1319,"1":559,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 760 {"0":1464,"1":704,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 760 {"0":1494,"1":734,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 760 {"0":1681,"1":921,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 760 {"0":1930,"1":1170,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 760 {"0":1970,"1":1210,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 760 {"0":2153,"1":1393,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 760 {"0":2437,"1":1677,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 764 {"0":7,"1":757,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 764 {"0":144,"1":620,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 764 {"0":174,"1":590,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 764 {"0":299,"1":465,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 764 {"0":535,"1":229,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 764 {"0":565,"1":199,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 764 {"0":668,"1":96,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 764 {"0":948,"1":184,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 764 {"0":1155,"1":391,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 764 {"0":1185,"1":421,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 764 {"0":1319,"1":555,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 764 {"0":1464,"1":700,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 764 {"0":1494,"1":730,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 764 {"0":1681,"1":917,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 764 {"0":1930,"1":1166,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 764 {"0":1970,"1":1206,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 764 {"0":2153,"1":1389,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 764 {"0":2437,"1":1673,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 763 {"0":7,"1":756,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 763 {"0":144,"1":619,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 763 {"0":174,"1":589,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 763 {"0":299,"1":464,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 763 {"0":535,"1":228,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 763 {"0":565,"1":198,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 763 {"0":668,"1":95,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 763 {"0":948,"1":185,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 763 {"0":1155,"1":392,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 763 {"0":1185,"1":422,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 763 {"0":1319,"1":556,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 763 {"0":1464,"1":701,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 763 {"0":1494,"1":731,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 763 {"0":1681,"1":918,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 763 {"0":1930,"1":1167,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 763 {"0":1970,"1":1207,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 763 {"0":2153,"1":1390,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 763 {"0":2437,"1":1674,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 719 {"0":7,"1":712,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 719 {"0":144,"1":575,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 719 {"0":174,"1":545,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 719 {"0":299,"1":420,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 719 {"0":535,"1":184,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 719 {"0":565,"1":154,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 719 {"0":668,"1":51,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 719 {"0":948,"1":229,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 719 {"0":1155,"1":436,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 719 {"0":1185,"1":466,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 719 {"0":1319,"1":600,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 719 {"0":1464,"1":745,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 719 {"0":1494,"1":775,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 719 {"0":1681,"1":962,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 719 {"0":1930,"1":1211,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 719 {"0":1970,"1":1251,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 719 {"0":2153,"1":1434,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 719 {"0":2437,"1":1718,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 641 {"0":7,"1":634,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 641 {"0":144,"1":497,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 641 {"0":174,"1":467,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 641 {"0":299,"1":342,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 641 {"0":535,"1":106,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 641 {"0":565,"1":76,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 641 {"0":668,"1":27,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 641 {"0":948,"1":307,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 641 {"0":1155,"1":514,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 641 {"0":1185,"1":544,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 641 {"0":1319,"1":678,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 641 {"0":1464,"1":823,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 641 {"0":1494,"1":853,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 641 {"0":1681,"1":1040,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 641 {"0":1930,"1":1289,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 641 {"0":1970,"1":1329,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 641 {"0":2153,"1":1512,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 641 {"0":2437,"1":1796,"2":15,"3":false}
+2026-09-06 14:29:35 [debug] : 17 {"0":7,"1":10,"2":15,"3":true}
+2026-09-06 14:29:35 [debug] : SELECTED {"0":"hls-report-section-general-information::urn:analysis-report/fir-1838249401/synthesis-1136165760"}
+2026-09-06 14:29:35 [debug] : SELECTED {"0":"hls-report-section-general-information::urn:analysis-report/fir-1838249401/synthesis-1136165760"}
+2026-09-06 14:30:27 [debug] : 2 {"0":7,"1":5,"2":15,"3":true}
+2026-09-06 14:30:27 [debug] : SELECTED {"0":"hls-report-section-general-information::urn:analysis-report/fir-1838249401/synthesis-1136165760"}
+2026-09-06 14:30:27 [debug] : 457 {"0":7,"1":450,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 457 {"0":144,"1":313,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 457 {"0":174,"1":283,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 457 {"0":299,"1":158,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 457 {"0":597,"1":140,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 457 {"0":627,"1":170,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 457 {"0":730,"1":273,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 457 {"0":1010,"1":553,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 457 {"0":1217,"1":760,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 457 {"0":1247,"1":790,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 457 {"0":1381,"1":924,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 457 {"0":1526,"1":1069,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 457 {"0":1556,"1":1099,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 457 {"0":1743,"1":1286,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 457 {"0":1992,"1":1535,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 457 {"0":2032,"1":1575,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 457 {"0":2215,"1":1758,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 457 {"0":2499,"1":2042,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 512 {"0":7,"1":505,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 512 {"0":144,"1":368,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 512 {"0":174,"1":338,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 512 {"0":299,"1":213,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 512 {"0":597,"1":85,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 512 {"0":627,"1":115,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 512 {"0":730,"1":218,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 512 {"0":1010,"1":498,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 512 {"0":1217,"1":705,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 512 {"0":1247,"1":735,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 512 {"0":1381,"1":869,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 512 {"0":1526,"1":1014,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 512 {"0":1556,"1":1044,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 512 {"0":1743,"1":1231,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 512 {"0":1992,"1":1480,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 512 {"0":2032,"1":1520,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 512 {"0":2215,"1":1703,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 512 {"0":2499,"1":1987,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 523 {"0":7,"1":516,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 523 {"0":144,"1":379,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 523 {"0":174,"1":349,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 523 {"0":299,"1":224,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 523 {"0":597,"1":74,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 523 {"0":627,"1":104,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 523 {"0":730,"1":207,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 523 {"0":1010,"1":487,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 523 {"0":1217,"1":694,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 523 {"0":1247,"1":724,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 523 {"0":1381,"1":858,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 523 {"0":1526,"1":1003,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 523 {"0":1556,"1":1033,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 523 {"0":1743,"1":1220,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 523 {"0":1992,"1":1469,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 523 {"0":2032,"1":1509,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 523 {"0":2215,"1":1692,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 523 {"0":2499,"1":1976,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 537 {"0":7,"1":530,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 537 {"0":144,"1":393,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 537 {"0":174,"1":363,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 537 {"0":299,"1":238,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 537 {"0":597,"1":60,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 537 {"0":627,"1":90,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 537 {"0":730,"1":193,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 537 {"0":1010,"1":473,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 537 {"0":1217,"1":680,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 537 {"0":1247,"1":710,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 537 {"0":1381,"1":844,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 537 {"0":1526,"1":989,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 537 {"0":1556,"1":1019,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 537 {"0":1743,"1":1206,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 537 {"0":1992,"1":1455,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 537 {"0":2032,"1":1495,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 537 {"0":2215,"1":1678,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 537 {"0":2499,"1":1962,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 544 {"0":7,"1":537,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 544 {"0":144,"1":400,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 544 {"0":174,"1":370,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 544 {"0":299,"1":245,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 544 {"0":597,"1":53,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 544 {"0":627,"1":83,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 544 {"0":730,"1":186,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 544 {"0":1010,"1":466,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 544 {"0":1217,"1":673,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 544 {"0":1247,"1":703,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 544 {"0":1381,"1":837,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 544 {"0":1526,"1":982,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 544 {"0":1556,"1":1012,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 544 {"0":1743,"1":1199,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 544 {"0":1992,"1":1448,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 544 {"0":2032,"1":1488,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 544 {"0":2215,"1":1671,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 544 {"0":2499,"1":1955,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 551 {"0":7,"1":544,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 551 {"0":144,"1":407,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 551 {"0":174,"1":377,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 551 {"0":299,"1":252,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 551 {"0":597,"1":46,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 551 {"0":627,"1":76,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 551 {"0":730,"1":179,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 551 {"0":1010,"1":459,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 551 {"0":1217,"1":666,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 551 {"0":1247,"1":696,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 551 {"0":1381,"1":830,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 551 {"0":1526,"1":975,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 551 {"0":1556,"1":1005,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 551 {"0":1743,"1":1192,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 551 {"0":1992,"1":1441,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 551 {"0":2032,"1":1481,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 551 {"0":2215,"1":1664,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 551 {"0":2499,"1":1948,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 552 {"0":7,"1":545,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 552 {"0":144,"1":408,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 552 {"0":174,"1":378,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 552 {"0":299,"1":253,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 552 {"0":597,"1":45,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 552 {"0":627,"1":75,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 552 {"0":730,"1":178,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 552 {"0":1010,"1":458,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 552 {"0":1217,"1":665,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 552 {"0":1247,"1":695,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 552 {"0":1381,"1":829,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 552 {"0":1526,"1":974,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 552 {"0":1556,"1":1004,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 552 {"0":1743,"1":1191,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 552 {"0":1992,"1":1440,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 552 {"0":2032,"1":1480,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 552 {"0":2215,"1":1663,"2":15,"3":false}
+2026-09-06 14:30:27 [debug] : 552 {"0":2499,"1":1947,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 551 {"0":7,"1":544,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 551 {"0":144,"1":407,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 551 {"0":174,"1":377,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 551 {"0":299,"1":252,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 551 {"0":597,"1":46,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 551 {"0":627,"1":76,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 551 {"0":730,"1":179,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 551 {"0":1010,"1":459,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 551 {"0":1217,"1":666,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 551 {"0":1247,"1":696,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 551 {"0":1381,"1":830,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 551 {"0":1526,"1":975,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 551 {"0":1556,"1":1005,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 551 {"0":1743,"1":1192,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 551 {"0":1992,"1":1441,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 551 {"0":2032,"1":1481,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 551 {"0":2215,"1":1664,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 551 {"0":2499,"1":1948,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 448 {"0":7,"1":441,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 448 {"0":144,"1":304,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 448 {"0":174,"1":274,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 448 {"0":299,"1":149,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 448 {"0":597,"1":149,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 448 {"0":627,"1":179,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 448 {"0":730,"1":282,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 448 {"0":1010,"1":562,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 448 {"0":1217,"1":769,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 448 {"0":1247,"1":799,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 448 {"0":1381,"1":933,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 448 {"0":1526,"1":1078,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 448 {"0":1556,"1":1108,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 448 {"0":1743,"1":1295,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 448 {"0":1992,"1":1544,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 448 {"0":2032,"1":1584,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 448 {"0":2215,"1":1767,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 448 {"0":2499,"1":2051,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 107 {"0":7,"1":100,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 107 {"0":144,"1":37,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 107 {"0":174,"1":67,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 107 {"0":299,"1":192,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 107 {"0":597,"1":490,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 107 {"0":627,"1":520,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 107 {"0":730,"1":623,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 107 {"0":1010,"1":903,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 107 {"0":1217,"1":1110,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 107 {"0":1247,"1":1140,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 107 {"0":1381,"1":1274,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 107 {"0":1526,"1":1419,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 107 {"0":1556,"1":1449,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 107 {"0":1743,"1":1636,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 107 {"0":1992,"1":1885,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 107 {"0":2032,"1":1925,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 107 {"0":2215,"1":2108,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 107 {"0":2499,"1":2392,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : SELECTED {"0":"hls-report-section-general-information::urn:analysis-report/fir-1838249401/synthesis-1136165760"}
+2026-09-06 14:30:28 [debug] : 1 {"0":7,"1":6,"2":15,"3":true}
+2026-09-06 14:30:28 [debug] : SELECTED {"0":"hls-report-section-general-information::urn:analysis-report/fir-1838249401/synthesis-1136165760"}
+2026-09-06 14:30:28 [debug] : 16 {"0":7,"1":9,"2":15,"3":true}
+2026-09-06 14:30:28 [debug] : SELECTED {"0":"hls-report-section-general-information::urn:analysis-report/fir-1838249401/synthesis-1136165760"}
+2026-09-06 14:30:28 [debug] : 82 {"0":7,"1":75,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 82 {"0":144,"1":62,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 82 {"0":174,"1":92,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 82 {"0":299,"1":217,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 82 {"0":597,"1":515,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 82 {"0":627,"1":545,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 82 {"0":730,"1":648,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 82 {"0":1010,"1":928,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 82 {"0":1217,"1":1135,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 82 {"0":1247,"1":1165,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 82 {"0":1381,"1":1299,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 82 {"0":1526,"1":1444,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 82 {"0":1556,"1":1474,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 82 {"0":1743,"1":1661,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 82 {"0":1992,"1":1910,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 82 {"0":2032,"1":1950,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 82 {"0":2215,"1":2133,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 82 {"0":2499,"1":2417,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 186 {"0":7,"1":179,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 186 {"0":144,"1":42,"2":15,"3":false}
+2026-09-06 14:30:28 [debug] : 186 {"0":174,"1":12,"2":15,"3":true}
+2026-09-06 14:30:28 [debug] : SELECTED {"0":"hls-report-section-timing-estimate::urn:analysis-report/fir-1838249401/synthesis-1136165760"}
+2026-09-06 14:30:29 [debug] : 248 {"0":7,"1":241,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 248 {"0":144,"1":104,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 248 {"0":174,"1":74,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 248 {"0":299,"1":51,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 248 {"0":597,"1":349,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 248 {"0":627,"1":379,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 248 {"0":730,"1":482,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 248 {"0":1010,"1":762,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 248 {"0":1217,"1":969,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 248 {"0":1247,"1":999,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 248 {"0":1381,"1":1133,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 248 {"0":1526,"1":1278,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 248 {"0":1556,"1":1308,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 248 {"0":1743,"1":1495,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 248 {"0":1992,"1":1744,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 248 {"0":2032,"1":1784,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 248 {"0":2215,"1":1967,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 248 {"0":2499,"1":2251,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 255 {"0":7,"1":248,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 255 {"0":144,"1":111,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 255 {"0":174,"1":81,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 255 {"0":299,"1":44,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 255 {"0":597,"1":342,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 255 {"0":627,"1":372,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 255 {"0":730,"1":475,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 255 {"0":1010,"1":755,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 255 {"0":1217,"1":962,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 255 {"0":1247,"1":992,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 255 {"0":1381,"1":1126,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 255 {"0":1526,"1":1271,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 255 {"0":1556,"1":1301,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 255 {"0":1743,"1":1488,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 255 {"0":1992,"1":1737,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 255 {"0":2032,"1":1777,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 255 {"0":2215,"1":1960,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : 255 {"0":2499,"1":2244,"2":15,"3":false}
+2026-09-06 14:30:29 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/lipuze/amdfpga/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-09-06 14:30:57 [debug] : 257 {"0":7,"1":250,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 257 {"0":144,"1":113,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 257 {"0":174,"1":83,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 257 {"0":299,"1":42,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 257 {"0":598,"1":341,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 257 {"0":628,"1":371,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 257 {"0":731,"1":474,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 257 {"0":1011,"1":754,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 257 {"0":1218,"1":961,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 257 {"0":1248,"1":991,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 257 {"0":1382,"1":1125,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 257 {"0":1527,"1":1270,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 257 {"0":1557,"1":1300,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 257 {"0":1744,"1":1487,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 257 {"0":1993,"1":1736,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 257 {"0":2033,"1":1776,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 257 {"0":2216,"1":1959,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 257 {"0":2500,"1":2243,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 372 {"0":7,"1":365,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 372 {"0":144,"1":228,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 372 {"0":174,"1":198,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 372 {"0":299,"1":73,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 372 {"0":598,"1":226,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 372 {"0":628,"1":256,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 372 {"0":731,"1":359,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 372 {"0":1011,"1":639,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 372 {"0":1218,"1":846,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 372 {"0":1248,"1":876,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 372 {"0":1382,"1":1010,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 372 {"0":1527,"1":1155,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 372 {"0":1557,"1":1185,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 372 {"0":1744,"1":1372,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 372 {"0":1993,"1":1621,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 372 {"0":2033,"1":1661,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 372 {"0":2216,"1":1844,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 372 {"0":2500,"1":2128,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 662 {"0":7,"1":655,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 662 {"0":144,"1":518,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 662 {"0":174,"1":488,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 662 {"0":299,"1":363,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 662 {"0":598,"1":64,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 662 {"0":628,"1":34,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 662 {"0":731,"1":69,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 662 {"0":1011,"1":349,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 662 {"0":1218,"1":556,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 662 {"0":1248,"1":586,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 662 {"0":1382,"1":720,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 662 {"0":1527,"1":865,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 662 {"0":1557,"1":895,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 662 {"0":1744,"1":1082,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 662 {"0":1993,"1":1331,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 662 {"0":2033,"1":1371,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 662 {"0":2216,"1":1554,"2":15,"3":false}
+2026-09-06 14:30:57 [debug] : 662 {"0":2500,"1":1838,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1177 {"0":7,"1":1170,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1177 {"0":144,"1":1033,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1177 {"0":174,"1":1003,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1177 {"0":299,"1":878,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1177 {"0":598,"1":579,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1177 {"0":628,"1":549,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1177 {"0":731,"1":446,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1177 {"0":1011,"1":166,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1177 {"0":1218,"1":41,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1177 {"0":1248,"1":71,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1177 {"0":1382,"1":205,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1177 {"0":1527,"1":350,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1177 {"0":1557,"1":380,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1177 {"0":1744,"1":567,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1177 {"0":1993,"1":816,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1177 {"0":2033,"1":856,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1177 {"0":2216,"1":1039,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1177 {"0":2500,"1":1323,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1228 {"0":7,"1":1221,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1228 {"0":144,"1":1084,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1228 {"0":174,"1":1054,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1228 {"0":299,"1":929,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1228 {"0":598,"1":630,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1228 {"0":628,"1":600,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1228 {"0":731,"1":497,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1228 {"0":1011,"1":217,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1228 {"0":1218,"1":10,"2":15,"3":true}
+2026-09-06 14:30:58 [debug] : SELECTED {"0":"hls-report-section-sw-i/o-information::urn:analysis-report/fir-1838249401/synthesis-1136165760"}
+2026-09-06 14:30:58 [debug] : 1227 {"0":7,"1":1220,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1227 {"0":144,"1":1083,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1227 {"0":174,"1":1053,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1227 {"0":299,"1":928,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1227 {"0":598,"1":629,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1227 {"0":628,"1":599,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1227 {"0":731,"1":496,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1227 {"0":1011,"1":216,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1227 {"0":1218,"1":9,"2":15,"3":true}
+2026-09-06 14:30:58 [debug] : SELECTED {"0":"hls-report-section-sw-i/o-information::urn:analysis-report/fir-1838249401/synthesis-1136165760"}
+2026-09-06 14:30:58 [debug] : 1182 {"0":7,"1":1175,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1182 {"0":144,"1":1038,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1182 {"0":174,"1":1008,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1182 {"0":299,"1":883,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1182 {"0":598,"1":584,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1182 {"0":628,"1":554,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1182 {"0":731,"1":451,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1182 {"0":1011,"1":171,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1182 {"0":1218,"1":36,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1182 {"0":1248,"1":66,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1182 {"0":1382,"1":200,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1182 {"0":1527,"1":345,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1182 {"0":1557,"1":375,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1182 {"0":1744,"1":562,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1182 {"0":1993,"1":811,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1182 {"0":2033,"1":851,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1182 {"0":2216,"1":1034,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1182 {"0":2500,"1":1318,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1039 {"0":7,"1":1032,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1039 {"0":144,"1":895,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1039 {"0":174,"1":865,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1039 {"0":299,"1":740,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1039 {"0":598,"1":441,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1039 {"0":628,"1":411,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1039 {"0":731,"1":308,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1039 {"0":1011,"1":28,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1039 {"0":1218,"1":179,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1039 {"0":1248,"1":209,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1039 {"0":1382,"1":343,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1039 {"0":1527,"1":488,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1039 {"0":1557,"1":518,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1039 {"0":1744,"1":705,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1039 {"0":1993,"1":954,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1039 {"0":2033,"1":994,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1039 {"0":2216,"1":1177,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 1039 {"0":2500,"1":1461,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 749 {"0":7,"1":742,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 749 {"0":144,"1":605,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 749 {"0":174,"1":575,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 749 {"0":299,"1":450,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 749 {"0":598,"1":151,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 749 {"0":628,"1":121,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 749 {"0":731,"1":18,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 749 {"0":1011,"1":262,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 749 {"0":1218,"1":469,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 749 {"0":1248,"1":499,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 749 {"0":1382,"1":633,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 749 {"0":1527,"1":778,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 749 {"0":1557,"1":808,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 749 {"0":1744,"1":995,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 749 {"0":1993,"1":1244,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 749 {"0":2033,"1":1284,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 749 {"0":2216,"1":1467,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 749 {"0":2500,"1":1751,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 670 {"0":7,"1":663,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 670 {"0":144,"1":526,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 670 {"0":174,"1":496,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 670 {"0":299,"1":371,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 670 {"0":598,"1":72,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 670 {"0":628,"1":42,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 670 {"0":731,"1":61,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 670 {"0":1011,"1":341,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 670 {"0":1218,"1":548,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 670 {"0":1248,"1":578,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 670 {"0":1382,"1":712,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 670 {"0":1527,"1":857,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 670 {"0":1557,"1":887,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 670 {"0":1744,"1":1074,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 670 {"0":1993,"1":1323,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 670 {"0":2033,"1":1363,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 670 {"0":2216,"1":1546,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 670 {"0":2500,"1":1830,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 665 {"0":7,"1":658,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 665 {"0":144,"1":521,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 665 {"0":174,"1":491,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 665 {"0":299,"1":366,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 665 {"0":598,"1":67,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 665 {"0":628,"1":37,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 665 {"0":731,"1":66,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 665 {"0":1011,"1":346,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 665 {"0":1218,"1":553,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 665 {"0":1248,"1":583,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 665 {"0":1382,"1":717,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 665 {"0":1527,"1":862,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 665 {"0":1557,"1":892,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 665 {"0":1744,"1":1079,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 665 {"0":1993,"1":1328,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 665 {"0":2033,"1":1368,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 665 {"0":2216,"1":1551,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 665 {"0":2500,"1":1835,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 664 {"0":7,"1":657,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 664 {"0":144,"1":520,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 664 {"0":174,"1":490,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 664 {"0":299,"1":365,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 664 {"0":598,"1":66,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 664 {"0":628,"1":36,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 664 {"0":731,"1":67,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 664 {"0":1011,"1":347,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 664 {"0":1218,"1":554,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 664 {"0":1248,"1":584,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 664 {"0":1382,"1":718,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 664 {"0":1527,"1":863,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 664 {"0":1557,"1":893,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 664 {"0":1744,"1":1080,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 664 {"0":1993,"1":1329,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 664 {"0":2033,"1":1369,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 664 {"0":2216,"1":1552,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 664 {"0":2500,"1":1836,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 662 {"0":7,"1":655,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 662 {"0":144,"1":518,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 662 {"0":174,"1":488,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 662 {"0":299,"1":363,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 662 {"0":598,"1":64,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 662 {"0":628,"1":34,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 662 {"0":731,"1":69,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 662 {"0":1011,"1":349,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 662 {"0":1218,"1":556,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 662 {"0":1248,"1":586,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 662 {"0":1382,"1":720,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 662 {"0":1527,"1":865,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 662 {"0":1557,"1":895,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 662 {"0":1744,"1":1082,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 662 {"0":1993,"1":1331,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 662 {"0":2033,"1":1371,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 662 {"0":2216,"1":1554,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 662 {"0":2500,"1":1838,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 660 {"0":7,"1":653,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 660 {"0":144,"1":516,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 660 {"0":174,"1":486,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 660 {"0":299,"1":361,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 660 {"0":598,"1":62,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 660 {"0":628,"1":32,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 660 {"0":731,"1":71,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 660 {"0":1011,"1":351,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 660 {"0":1218,"1":558,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 660 {"0":1248,"1":588,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 660 {"0":1382,"1":722,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 660 {"0":1527,"1":867,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 660 {"0":1557,"1":897,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 660 {"0":1744,"1":1084,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 660 {"0":1993,"1":1333,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 660 {"0":2033,"1":1373,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 660 {"0":2216,"1":1556,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 660 {"0":2500,"1":1840,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 656 {"0":7,"1":649,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 656 {"0":144,"1":512,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 656 {"0":174,"1":482,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 656 {"0":299,"1":357,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 656 {"0":598,"1":58,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 656 {"0":628,"1":28,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 656 {"0":731,"1":75,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 656 {"0":1011,"1":355,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 656 {"0":1218,"1":562,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 656 {"0":1248,"1":592,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 656 {"0":1382,"1":726,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 656 {"0":1527,"1":871,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 656 {"0":1557,"1":901,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 656 {"0":1744,"1":1088,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 656 {"0":1993,"1":1337,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 656 {"0":2033,"1":1377,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 656 {"0":2216,"1":1560,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 656 {"0":2500,"1":1844,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 651 {"0":7,"1":644,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 651 {"0":144,"1":507,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 651 {"0":174,"1":477,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 651 {"0":299,"1":352,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 651 {"0":598,"1":53,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 651 {"0":628,"1":23,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 651 {"0":731,"1":80,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 651 {"0":1011,"1":360,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 651 {"0":1218,"1":567,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 651 {"0":1248,"1":597,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 651 {"0":1382,"1":731,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 651 {"0":1527,"1":876,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 651 {"0":1557,"1":906,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 651 {"0":1744,"1":1093,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 651 {"0":1993,"1":1342,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 651 {"0":2033,"1":1382,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 651 {"0":2216,"1":1565,"2":15,"3":false}
+2026-09-06 14:30:58 [debug] : 651 {"0":2500,"1":1849,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 626 {"0":7,"1":619,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 626 {"0":144,"1":482,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 626 {"0":174,"1":452,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 626 {"0":299,"1":327,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 626 {"0":598,"1":28,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 626 {"0":628,"1":2,"2":15,"3":true}
+2026-09-06 14:30:59 [debug] : SELECTED {"0":"hls-report-section-s_axilite-interfaces::urn:analysis-report/fir-1838249401/synthesis-1136165760"}
+2026-09-06 14:30:59 [debug] : 532 {"0":7,"1":525,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 532 {"0":144,"1":388,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 532 {"0":174,"1":358,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 532 {"0":299,"1":233,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 532 {"0":598,"1":66,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 532 {"0":628,"1":96,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 532 {"0":731,"1":199,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 532 {"0":1011,"1":479,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 532 {"0":1218,"1":686,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 532 {"0":1248,"1":716,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 532 {"0":1382,"1":850,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 532 {"0":1527,"1":995,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 532 {"0":1557,"1":1025,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 532 {"0":1744,"1":1212,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 532 {"0":1993,"1":1461,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 532 {"0":2033,"1":1501,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 532 {"0":2216,"1":1684,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 532 {"0":2500,"1":1968,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 453 {"0":7,"1":446,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 453 {"0":144,"1":309,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 453 {"0":174,"1":279,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 453 {"0":299,"1":154,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 453 {"0":598,"1":145,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 453 {"0":628,"1":175,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 453 {"0":731,"1":278,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 453 {"0":1011,"1":558,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 453 {"0":1218,"1":765,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 453 {"0":1248,"1":795,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 453 {"0":1382,"1":929,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 453 {"0":1527,"1":1074,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 453 {"0":1557,"1":1104,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 453 {"0":1744,"1":1291,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 453 {"0":1993,"1":1540,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 453 {"0":2033,"1":1580,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 453 {"0":2216,"1":1763,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 453 {"0":2500,"1":2047,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 415 {"0":7,"1":408,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 415 {"0":144,"1":271,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 415 {"0":174,"1":241,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 415 {"0":299,"1":116,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 415 {"0":598,"1":183,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 415 {"0":628,"1":213,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 415 {"0":731,"1":316,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 415 {"0":1011,"1":596,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 415 {"0":1218,"1":803,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 415 {"0":1248,"1":833,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 415 {"0":1382,"1":967,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 415 {"0":1527,"1":1112,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 415 {"0":1557,"1":1142,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 415 {"0":1744,"1":1329,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 415 {"0":1993,"1":1578,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 415 {"0":2033,"1":1618,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 415 {"0":2216,"1":1801,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 415 {"0":2500,"1":2085,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 401 {"0":7,"1":394,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 401 {"0":144,"1":257,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 401 {"0":174,"1":227,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 401 {"0":299,"1":102,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 401 {"0":598,"1":197,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 401 {"0":628,"1":227,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 401 {"0":731,"1":330,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 401 {"0":1011,"1":610,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 401 {"0":1218,"1":817,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 401 {"0":1248,"1":847,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 401 {"0":1382,"1":981,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 401 {"0":1527,"1":1126,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 401 {"0":1557,"1":1156,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 401 {"0":1744,"1":1343,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 401 {"0":1993,"1":1592,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 401 {"0":2033,"1":1632,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 401 {"0":2216,"1":1815,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 401 {"0":2500,"1":2099,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 384 {"0":7,"1":377,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 384 {"0":144,"1":240,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 384 {"0":174,"1":210,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 384 {"0":299,"1":85,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 384 {"0":598,"1":214,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 384 {"0":628,"1":244,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 384 {"0":731,"1":347,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 384 {"0":1011,"1":627,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 384 {"0":1218,"1":834,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 384 {"0":1248,"1":864,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 384 {"0":1382,"1":998,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 384 {"0":1527,"1":1143,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 384 {"0":1557,"1":1173,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 384 {"0":1744,"1":1360,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 384 {"0":1993,"1":1609,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 384 {"0":2033,"1":1649,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 384 {"0":2216,"1":1832,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 384 {"0":2500,"1":2116,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 350 {"0":7,"1":343,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 350 {"0":144,"1":206,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 350 {"0":174,"1":176,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 350 {"0":299,"1":51,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 350 {"0":598,"1":248,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 350 {"0":628,"1":278,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 350 {"0":731,"1":381,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 350 {"0":1011,"1":661,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 350 {"0":1218,"1":868,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 350 {"0":1248,"1":898,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 350 {"0":1382,"1":1032,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 350 {"0":1527,"1":1177,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 350 {"0":1557,"1":1207,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 350 {"0":1744,"1":1394,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 350 {"0":1993,"1":1643,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 350 {"0":2033,"1":1683,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 350 {"0":2216,"1":1866,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 350 {"0":2500,"1":2150,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 297 {"0":7,"1":290,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 297 {"0":144,"1":153,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 297 {"0":174,"1":123,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 297 {"0":299,"1":2,"2":15,"3":true}
+2026-09-06 14:30:59 [debug] : SELECTED {"0":"hls-report-section-performance-&-resource-estimates::urn:analysis-report/fir-1838249401/synthesis-1136165760"}
+2026-09-06 14:30:59 [debug] : 245 {"0":7,"1":238,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 245 {"0":144,"1":101,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 245 {"0":174,"1":71,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 245 {"0":299,"1":54,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 245 {"0":598,"1":353,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 245 {"0":628,"1":383,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 245 {"0":731,"1":486,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 245 {"0":1011,"1":766,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 245 {"0":1218,"1":973,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 245 {"0":1248,"1":1003,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 245 {"0":1382,"1":1137,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 245 {"0":1527,"1":1282,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 245 {"0":1557,"1":1312,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 245 {"0":1744,"1":1499,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 245 {"0":1993,"1":1748,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 245 {"0":2033,"1":1788,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 245 {"0":2216,"1":1971,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 245 {"0":2500,"1":2255,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 222 {"0":7,"1":215,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 222 {"0":144,"1":78,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 222 {"0":174,"1":48,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 222 {"0":299,"1":77,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 222 {"0":598,"1":376,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 222 {"0":628,"1":406,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 222 {"0":731,"1":509,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 222 {"0":1011,"1":789,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 222 {"0":1218,"1":996,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 222 {"0":1248,"1":1026,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 222 {"0":1382,"1":1160,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 222 {"0":1527,"1":1305,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 222 {"0":1557,"1":1335,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 222 {"0":1744,"1":1522,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 222 {"0":1993,"1":1771,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 222 {"0":2033,"1":1811,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 222 {"0":2216,"1":1994,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 222 {"0":2500,"1":2278,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 221 {"0":7,"1":214,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 221 {"0":144,"1":77,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 221 {"0":174,"1":47,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 221 {"0":299,"1":78,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 221 {"0":598,"1":377,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 221 {"0":628,"1":407,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 221 {"0":731,"1":510,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 221 {"0":1011,"1":790,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 221 {"0":1218,"1":997,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 221 {"0":1248,"1":1027,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 221 {"0":1382,"1":1161,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 221 {"0":1527,"1":1306,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 221 {"0":1557,"1":1336,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 221 {"0":1744,"1":1523,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 221 {"0":1993,"1":1772,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 221 {"0":2033,"1":1812,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 221 {"0":2216,"1":1995,"2":15,"3":false}
+2026-09-06 14:30:59 [debug] : 221 {"0":2500,"1":2279,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 220 {"0":7,"1":213,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 220 {"0":144,"1":76,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 220 {"0":174,"1":46,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 220 {"0":299,"1":79,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 220 {"0":598,"1":378,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 220 {"0":628,"1":408,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 220 {"0":731,"1":511,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 220 {"0":1011,"1":791,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 220 {"0":1218,"1":998,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 220 {"0":1248,"1":1028,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 220 {"0":1382,"1":1162,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 220 {"0":1527,"1":1307,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 220 {"0":1557,"1":1337,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 220 {"0":1744,"1":1524,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 220 {"0":1993,"1":1773,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 220 {"0":2033,"1":1813,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 220 {"0":2216,"1":1996,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 220 {"0":2500,"1":2280,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 205 {"0":7,"1":198,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 205 {"0":144,"1":61,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 205 {"0":174,"1":31,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 205 {"0":299,"1":94,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 205 {"0":598,"1":393,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 205 {"0":628,"1":423,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 205 {"0":731,"1":526,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 205 {"0":1011,"1":806,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 205 {"0":1218,"1":1013,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 205 {"0":1248,"1":1043,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 205 {"0":1382,"1":1177,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 205 {"0":1527,"1":1322,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 205 {"0":1557,"1":1352,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 205 {"0":1744,"1":1539,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 205 {"0":1993,"1":1788,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 205 {"0":2033,"1":1828,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 205 {"0":2216,"1":2011,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 205 {"0":2500,"1":2295,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 145 {"0":7,"1":138,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 145 {"0":144,"1":1,"2":15,"3":true}
+2026-09-06 14:31:03 [debug] : SELECTED {"0":"hls-report-section-estimated-quality-of-results::urn:analysis-report/fir-1838249401/synthesis-1136165760"}
+2026-09-06 14:31:03 [debug] : 45 {"0":7,"1":38,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 45 {"0":144,"1":99,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 45 {"0":174,"1":129,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 45 {"0":299,"1":254,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 45 {"0":598,"1":553,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 45 {"0":628,"1":583,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 45 {"0":731,"1":686,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 45 {"0":1011,"1":966,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 45 {"0":1218,"1":1173,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 45 {"0":1248,"1":1203,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 45 {"0":1382,"1":1337,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 45 {"0":1527,"1":1482,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 45 {"0":1557,"1":1512,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 45 {"0":1744,"1":1699,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 45 {"0":1993,"1":1948,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 45 {"0":2033,"1":1988,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 45 {"0":2216,"1":2171,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 45 {"0":2500,"1":2455,"2":15,"3":false}
+2026-09-06 14:31:03 [debug] : 2 {"0":7,"1":5,"2":15,"3":true}
+2026-09-06 14:31:03 [debug] : SELECTED {"0":"hls-report-section-general-information::urn:analysis-report/fir-1838249401/synthesis-1136165760"}
+2026-09-06 14:31:03 [debug] : SELECTED {"0":"hls-report-section-general-information::urn:analysis-report/fir-1838249401/synthesis-1136165760"}
+2026-09-06 14:31:04 [debug] : 4 {"0":7,"1":3,"2":15,"3":true}
+2026-09-06 14:31:04 [debug] : SELECTED {"0":"hls-report-section-general-information::urn:analysis-report/fir-1838249401/synthesis-1136165760"}
+2026-09-06 14:31:04 [debug] : 82 {"0":7,"1":75,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 82 {"0":144,"1":62,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 82 {"0":174,"1":92,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 82 {"0":299,"1":217,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 82 {"0":598,"1":516,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 82 {"0":628,"1":546,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 82 {"0":731,"1":649,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 82 {"0":1011,"1":929,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 82 {"0":1218,"1":1136,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 82 {"0":1248,"1":1166,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 82 {"0":1382,"1":1300,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 82 {"0":1527,"1":1445,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 82 {"0":1557,"1":1475,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 82 {"0":1744,"1":1662,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 82 {"0":1993,"1":1911,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 82 {"0":2033,"1":1951,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 82 {"0":2216,"1":2134,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 82 {"0":2500,"1":2418,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 243 {"0":7,"1":236,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 243 {"0":144,"1":99,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 243 {"0":174,"1":69,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 243 {"0":299,"1":56,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 243 {"0":598,"1":355,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 243 {"0":628,"1":385,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 243 {"0":731,"1":488,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 243 {"0":1011,"1":768,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 243 {"0":1218,"1":975,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 243 {"0":1248,"1":1005,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 243 {"0":1382,"1":1139,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 243 {"0":1527,"1":1284,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 243 {"0":1557,"1":1314,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 243 {"0":1744,"1":1501,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 243 {"0":1993,"1":1750,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 243 {"0":2033,"1":1790,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 243 {"0":2216,"1":1973,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 243 {"0":2500,"1":2257,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 445 {"0":7,"1":438,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 445 {"0":144,"1":301,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 445 {"0":174,"1":271,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 445 {"0":299,"1":146,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 445 {"0":598,"1":153,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 445 {"0":628,"1":183,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 445 {"0":731,"1":286,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 445 {"0":1011,"1":566,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 445 {"0":1218,"1":773,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 445 {"0":1248,"1":803,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 445 {"0":1382,"1":937,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 445 {"0":1527,"1":1082,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 445 {"0":1557,"1":1112,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 445 {"0":1744,"1":1299,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 445 {"0":1993,"1":1548,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 445 {"0":2033,"1":1588,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 445 {"0":2216,"1":1771,"2":15,"3":false}
+2026-09-06 14:31:04 [debug] : 445 {"0":2500,"1":2055,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 604 {"0":7,"1":597,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 604 {"0":144,"1":460,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 604 {"0":174,"1":430,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 604 {"0":299,"1":305,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 604 {"0":598,"1":6,"2":15,"3":true}
+2026-09-06 14:31:05 [debug] : SELECTED {"0":"hls-report-section-hw-interfaces::urn:analysis-report/fir-1838249401/synthesis-1136165760"}
+2026-09-06 14:31:05 [debug] : 621 {"0":7,"1":614,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 621 {"0":144,"1":477,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 621 {"0":174,"1":447,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 621 {"0":299,"1":322,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 621 {"0":598,"1":23,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 621 {"0":628,"1":7,"2":15,"3":true}
+2026-09-06 14:31:05 [debug] : SELECTED {"0":"hls-report-section-s_axilite-interfaces::urn:analysis-report/fir-1838249401/synthesis-1136165760"}
+2026-09-06 14:31:05 [debug] : 620 {"0":7,"1":613,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 620 {"0":144,"1":476,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 620 {"0":174,"1":446,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 620 {"0":299,"1":321,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 620 {"0":598,"1":22,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 620 {"0":628,"1":8,"2":15,"3":true}
+2026-09-06 14:31:05 [debug] : SELECTED {"0":"hls-report-section-s_axilite-interfaces::urn:analysis-report/fir-1838249401/synthesis-1136165760"}
+2026-09-06 14:31:05 [debug] : 591 {"0":7,"1":584,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 591 {"0":144,"1":447,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 591 {"0":174,"1":417,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 591 {"0":299,"1":292,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 591 {"0":598,"1":7,"2":15,"3":true}
+2026-09-06 14:31:05 [debug] : SELECTED {"0":"hls-report-section-hw-interfaces::urn:analysis-report/fir-1838249401/synthesis-1136165760"}
+2026-09-06 14:31:05 [debug] : 491 {"0":7,"1":484,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 491 {"0":144,"1":347,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 491 {"0":174,"1":317,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 491 {"0":299,"1":192,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 491 {"0":598,"1":107,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 491 {"0":628,"1":137,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 491 {"0":731,"1":240,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 491 {"0":1011,"1":520,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 491 {"0":1218,"1":727,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 491 {"0":1248,"1":757,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 491 {"0":1382,"1":891,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 491 {"0":1527,"1":1036,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 491 {"0":1557,"1":1066,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 491 {"0":1744,"1":1253,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 491 {"0":1993,"1":1502,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 491 {"0":2033,"1":1542,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 491 {"0":2216,"1":1725,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 491 {"0":2500,"1":2009,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 401 {"0":7,"1":394,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 401 {"0":144,"1":257,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 401 {"0":174,"1":227,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 401 {"0":299,"1":102,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 401 {"0":598,"1":197,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 401 {"0":628,"1":227,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 401 {"0":731,"1":330,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 401 {"0":1011,"1":610,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 401 {"0":1218,"1":817,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 401 {"0":1248,"1":847,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 401 {"0":1382,"1":981,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 401 {"0":1527,"1":1126,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 401 {"0":1557,"1":1156,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 401 {"0":1744,"1":1343,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 401 {"0":1993,"1":1592,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 401 {"0":2033,"1":1632,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 401 {"0":2216,"1":1815,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 401 {"0":2500,"1":2099,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 296 {"0":7,"1":289,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 296 {"0":144,"1":152,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 296 {"0":174,"1":122,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 296 {"0":299,"1":3,"2":15,"3":true}
+2026-09-06 14:31:05 [debug] : SELECTED {"0":"hls-report-section-performance-&-resource-estimates::urn:analysis-report/fir-1838249401/synthesis-1136165760"}
+2026-09-06 14:31:05 [debug] : 275 {"0":7,"1":268,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 275 {"0":144,"1":131,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 275 {"0":174,"1":101,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 275 {"0":299,"1":24,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 275 {"0":598,"1":323,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 275 {"0":628,"1":353,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 275 {"0":731,"1":456,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 275 {"0":1011,"1":736,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 275 {"0":1218,"1":943,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 275 {"0":1248,"1":973,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 275 {"0":1382,"1":1107,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 275 {"0":1527,"1":1252,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 275 {"0":1557,"1":1282,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 275 {"0":1744,"1":1469,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 275 {"0":1993,"1":1718,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 275 {"0":2033,"1":1758,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 275 {"0":2216,"1":1941,"2":15,"3":false}
+2026-09-06 14:31:05 [debug] : 275 {"0":2500,"1":2225,"2":15,"3":false}
+2026-09-06 14:31:31 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/lipuze/amdfpga/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-09-06 14:32:33 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/lipuze/amdfpga/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-09-06 14:33:17 [debug] : No tree item with id 'c-@--@-/0:genshin_start_hls (fir128)' found. 

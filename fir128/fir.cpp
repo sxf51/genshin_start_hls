@@ -31,7 +31,7 @@ void fir (
     
 	
 	static data_t shift_reg[N];
-    #pragma HLS array_partition variable=shift_reg cyclic factor =4
+    #pragma HLS array_partition variable=shift_reg block factor =4
     
     acc_t ans = 0;
 
