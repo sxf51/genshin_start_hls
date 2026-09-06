@@ -21,14 +21,14 @@
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>264</Best-caseLatency>
-<Average-caseLatency>264</Average-caseLatency>
-<Worst-caseLatency>264</Worst-caseLatency>
-<Best-caseRealTimeLatency>2.640 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>2.640 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>2.640 us</Worst-caseRealTimeLatency>
-<Interval-min>265</Interval-min>
-<Interval-max>265</Interval-max>
+<Best-caseLatency>519</Best-caseLatency>
+<Average-caseLatency>519</Average-caseLatency>
+<Worst-caseLatency>519</Worst-caseLatency>
+<Best-caseRealTimeLatency>5.190 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>5.190 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>5.190 us</Worst-caseRealTimeLatency>
+<Interval-min>520</Interval-min>
+<Interval-max>520</Interval-max>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
 <SummaryOfViolations>
@@ -40,10 +40,10 @@
 
 <AreaEstimates>
 <Resources>
-<BRAM_18K>3</BRAM_18K>
+<BRAM_18K>2</BRAM_18K>
 <DSP>2</DSP>
-<FF>216</FF>
-<LUT>485</LUT>
+<FF>218</FF>
+<LUT>496</LUT>
 <URAM>0</URAM>
 </Resources>
 <AvailableResources>
