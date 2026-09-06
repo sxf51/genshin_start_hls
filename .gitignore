@@ -32,3 +32,6 @@ config.cmdline
 *.d
 *.exe
 *.pb3
+
+workspace/
+project/
