@@ -103,3 +103,5 @@ comp.run(operation="SYNTHESIS")
 
 comp.run(operation="SYNTHESIS")
 
+comp.run(operation="SYNTHESIS")
+

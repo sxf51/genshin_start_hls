@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'fir_Pipeline_VITIS_LOOP_56_1'
 ================================================================
-* Date:           Sun Sep  6 13:30:17 2026
+* Date:           Sun Sep  6 14:21:36 2026
 
 * Version:        2026.1 (Build 6493734 on Jun 16 2026)
 * Project:        baseline
@@ -20,7 +20,7 @@
     +--------+----------+----------+------------+
     |  Clock |  Target  | Estimated| Uncertainty|
     +--------+----------+----------+------------+
-    |ap_clk  |  10.00 ns|  5.851 ns|     2.70 ns|
+    |ap_clk  |  10.00 ns|  6.376 ns|     2.70 ns|
     +--------+----------+----------+------------+
 
 + Latency: 
@@ -29,7 +29,7 @@
     |  Latency (cycles) |  Latency (absolute) |  Interval |      Pipeline     |
     |   min   |   max   |    min   |    max   | min | max |        Type       |
     +---------+---------+----------+----------+-----+-----+-------------------+
-    |      134|      134|  1.340 us|  1.340 us|    0|    0|  loop pipeline stp|
+    |      102|      102|  1.020 us|  1.020 us|    0|    0|  loop pipeline stp|
     +---------+---------+----------+----------+-----+-----+-------------------+
 
     + Detail: 
@@ -41,7 +41,7 @@
         |                   |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
         |     Loop Name     |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
         +-------------------+---------+---------+----------+-----------+-----------+------+----------+
-        |- VITIS_LOOP_56_1  |      132|      132|        69|          1|        N/A|    64|       yes|
+        |- VITIS_LOOP_56_1  |      100|      100|        69|          1|        N/A|    32|       yes|
         +-------------------+---------+---------+----------+-----------+-----------+------+----------+
 
 
@@ -54,34 +54,38 @@
 |       Name      | BRAM_18K|  DSP |   FF   |   LUT  | URAM|
 +-----------------+---------+------+--------+--------+-----+
 |DSP              |        -|     -|       -|       -|    -|
-|Expression       |        -|     -|       0|     217|    -|
+|Expression       |        -|     -|       0|     361|    -|
 |FIFO             |        -|     -|       -|       -|    -|
-|Instance         |        -|    48|    8651|    6778|    -|
+|Instance         |        -|    80|    8651|    6966|    -|
 |Memory           |        -|     -|       -|       -|    -|
-|Multiplexer      |        -|     -|       0|     153|    -|
-|Register         |        -|     -|     754|     192|    -|
+|Multiplexer      |        -|     -|       0|     417|    -|
+|Register         |        -|     -|     755|     128|    -|
 +-----------------+---------+------+--------+--------+-----+
-|Total            |        0|    48|    9405|    7340|    0|
+|Total            |        0|    80|    9406|    7872|    0|
 +-----------------+---------+------+--------+--------+-----+
 |Available        |      288|  1248|  234240|  117120|   64|
 +-----------------+---------+------+--------+--------+-----+
-|Utilization (%)  |        0|     3|       4|       6|    0|
+|Utilization (%)  |        0|     6|       4|       6|    0|
 +-----------------+---------+------+--------+--------+-----+
 
 + Detail: 
     * Instance: 
-    +--------------------------+-----------------------+---------+----+------+------+-----+
-    |         Instance         |         Module        | BRAM_18K| DSP|  FF  |  LUT | URAM|
-    +--------------------------+-----------------------+---------+----+------+------+-----+
-    |mul_64ns_66ns_129_1_1_U1  |mul_64ns_66ns_129_1_1  |        0|  16|     0|    51|    0|
-    |mul_64ns_66ns_129_1_1_U2  |mul_64ns_66ns_129_1_1  |        0|  16|     0|    51|    0|
-    |mul_64ns_66ns_129_1_1_U3  |mul_64ns_66ns_129_1_1  |        0|  16|     0|    51|    0|
-    |sparsemux_7_2_32_1_1_U5   |sparsemux_7_2_32_1_1   |        0|   0|     0|     9|    0|
-    |sparsemux_7_2_32_1_1_U6   |sparsemux_7_2_32_1_1   |        0|   0|     0|     9|    0|
-    |urem_64ns_3ns_2_68_1_U4   |urem_64ns_3ns_2_68_1   |        0|   0|  8651|  6607|    0|
-    +--------------------------+-----------------------+---------+----+------+------+-----+
-    |Total                     |                       |        0|  48|  8651|  6778|    0|
-    +--------------------------+-----------------------+---------+----+------+------+-----+
+    +---------------------------+-----------------------+---------+----+------+------+-----+
+    |          Instance         |         Module        | BRAM_18K| DSP|  FF  |  LUT | URAM|
+    +---------------------------+-----------------------+---------+----+------+------+-----+
+    |mul_64ns_66ns_129_1_1_U1   |mul_64ns_66ns_129_1_1  |        0|  16|     0|    51|    0|
+    |mul_64ns_66ns_129_1_1_U2   |mul_64ns_66ns_129_1_1  |        0|  16|     0|    51|    0|
+    |mul_64ns_66ns_129_1_1_U3   |mul_64ns_66ns_129_1_1  |        0|  16|     0|    51|    0|
+    |mul_64ns_66ns_129_1_1_U4   |mul_64ns_66ns_129_1_1  |        0|  16|     0|    51|    0|
+    |mul_64ns_66ns_129_1_1_U5   |mul_64ns_66ns_129_1_1  |        0|  16|     0|    51|    0|
+    |sparsemux_11_3_32_1_1_U7   |sparsemux_11_3_32_1_1  |        0|   0|     0|    26|    0|
+    |sparsemux_11_3_32_1_1_U8   |sparsemux_11_3_32_1_1  |        0|   0|     0|    26|    0|
+    |sparsemux_11_3_32_1_1_U9   |sparsemux_11_3_32_1_1  |        0|   0|     0|    26|    0|
+    |sparsemux_11_3_32_1_1_U10  |sparsemux_11_3_32_1_1  |        0|   0|     0|    26|    0|
+    |urem_64ns_4ns_3_68_1_U6    |urem_64ns_4ns_3_68_1   |        0|   0|  8651|  6607|    0|
+    +---------------------------+-----------------------+---------+----+------+------+-----+
+    |Total                      |                       |        0|  80|  8651|  6966|    0|
+    +---------------------------+-----------------------+---------+----+------+------+-----+
 
     * DSP: 
     N/A
@@ -96,13 +100,16 @@
     +----------------------+----------+----+---+----+------------+------------+
     |     Variable Name    | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
     +----------------------+----------+----+---+----+------------+------------+
-    |add_ln60_1_fu_215_p2  |         +|   0|  0|  71|          64|           3|
-    |add_ln60_fu_203_p2    |         +|   0|  0|  71|          64|           2|
-    |ap_condition_874      |       and|   0|  0|   2|           1|           1|
-    |icmp_ln56_fu_209_p2   |      icmp|   0|  0|  71|          64|           1|
+    |add_ln60_1_fu_426_p2  |         +|   0|  0|  71|          64|           3|
+    |add_ln60_2_fu_347_p2  |         +|   0|  0|  71|          64|           3|
+    |add_ln60_3_fu_359_p2  |         +|   0|  0|  71|          64|           4|
+    |add_ln60_fu_397_p2    |         +|   0|  0|  71|          64|           2|
+    |ap_condition_751      |       and|   0|  0|   2|           1|           1|
+    |ap_condition_752      |       and|   0|  0|   2|           1|           1|
+    |icmp_ln56_fu_353_p2   |      icmp|   0|  0|  71|          64|           1|
     |ap_enable_pp0         |       xor|   0|  0|   2|           1|           2|
     +----------------------+----------+----+---+----+------------+------------+
-    |Total                 |          |   0|  0| 217|         194|           9|
+    |Total                 |          |   0|  0| 361|         323|          17|
     +----------------------+----------+----+---+----+------------+------------+
 
     * Multiplexer: 
@@ -111,26 +118,32 @@
     +----------------------------------------+----+-----------+-----+-----------+
     |ap_done_int                             |   9|          2|    1|          2|
     |ap_enable_reg_pp0_iter1                 |   9|          2|    1|          2|
-    |fir_int_int_shift_reg_1_address0_local  |  14|          3|    6|         18|
-    |fir_int_int_shift_reg_1_address1_local  |  14|          3|    6|         18|
-    |fir_int_int_shift_reg_1_d0_local        |  14|          3|   32|         96|
-    |fir_int_int_shift_reg_2_address0_local  |  14|          3|    6|         18|
-    |fir_int_int_shift_reg_2_address1_local  |  14|          3|    6|         18|
-    |fir_int_int_shift_reg_2_d0_local        |  14|          3|   32|         96|
-    |fir_int_int_shift_reg_address0_local    |  14|          3|    6|         18|
-    |fir_int_int_shift_reg_address1_local    |  14|          3|    6|         18|
-    |fir_int_int_shift_reg_d0_local          |  14|          3|   32|         96|
-    |i_fu_52                                 |   9|          2|   64|        128|
+    |fir_int_int_shift_reg_1_address0_local  |  26|          5|    5|         25|
+    |fir_int_int_shift_reg_1_address1_local  |  26|          5|    5|         25|
+    |fir_int_int_shift_reg_1_d0_local        |  26|          5|   32|        160|
+    |fir_int_int_shift_reg_2_address0_local  |  26|          5|    5|         25|
+    |fir_int_int_shift_reg_2_address1_local  |  26|          5|    5|         25|
+    |fir_int_int_shift_reg_2_d0_local        |  26|          5|   32|        160|
+    |fir_int_int_shift_reg_3_address0_local  |  26|          5|    5|         25|
+    |fir_int_int_shift_reg_3_address1_local  |  26|          5|    5|         25|
+    |fir_int_int_shift_reg_3_d0_local        |  26|          5|   32|        160|
+    |fir_int_int_shift_reg_4_address0_local  |  26|          5|    5|         25|
+    |fir_int_int_shift_reg_4_address1_local  |  26|          5|    5|         25|
+    |fir_int_int_shift_reg_4_d0_local        |  26|          5|   32|        160|
+    |fir_int_int_shift_reg_address0_local    |  26|          5|    5|         25|
+    |fir_int_int_shift_reg_address1_local    |  26|          5|    5|         25|
+    |fir_int_int_shift_reg_d0_local          |  26|          5|   32|        160|
+    |i_fu_64                                 |   9|          2|   64|        128|
     +----------------------------------------+----+-----------+-----+-----------+
-    |Total                                   | 153|         33|  198|        528|
+    |Total                                   | 417|         81|  276|       1182|
     +----------------------------------------+----+-----------+-----+-----------+
 
     * Register: 
     +----------------------------------------+----+----+-----+-----------+
     |                  Name                  | FF | LUT| Bits| Const Bits|
     +----------------------------------------+----+----+-----+-----------+
-    |add_ln60_1_reg_368                      |  64|   0|   64|          0|
-    |add_ln60_reg_344                        |  64|   0|   64|          0|
+    |add_ln60_2_reg_668                      |  64|   0|   64|          0|
+    |add_ln60_3_reg_677                      |  64|   0|   64|          0|
     |ap_CS_fsm                               |   1|   0|    1|          0|
     |ap_done_reg                             |   1|   0|    1|          0|
     |ap_enable_reg_pp0_iter1                 |   1|   0|    1|          0|
@@ -270,23 +283,36 @@
     |ap_loop_exit_ready_pp0_iter7_reg        |   1|   0|    1|          0|
     |ap_loop_exit_ready_pp0_iter8_reg        |   1|   0|    1|          0|
     |ap_loop_exit_ready_pp0_iter9_reg        |   1|   0|    1|          0|
-    |fir_int_int_shift_reg_1_addr_1_reg_354  |   6|   0|    6|          0|
-    |fir_int_int_shift_reg_1_addr_reg_385    |   6|   0|    6|          0|
-    |fir_int_int_shift_reg_2_addr_1_reg_359  |   6|   0|    6|          0|
-    |fir_int_int_shift_reg_2_addr_reg_391    |   6|   0|    6|          0|
-    |fir_int_int_shift_reg_addr_1_reg_349    |   6|   0|    6|          0|
-    |fir_int_int_shift_reg_addr_reg_379      |   6|   0|    6|          0|
-    |i_fu_52                                 |  64|   0|   64|          0|
-    |icmp_ln56_reg_364                       |   1|   0|    1|          0|
-    |trunc_ln56_reg_373                      |   2|   0|    2|          0|
-    |add_ln60_1_reg_368                      |  64|  32|   64|          0|
-    |add_ln60_reg_344                        |  64|  32|   64|          0|
-    |fir_int_int_shift_reg_1_addr_1_reg_354  |  64|  32|    6|          0|
-    |fir_int_int_shift_reg_2_addr_1_reg_359  |  64|  32|    6|          0|
-    |fir_int_int_shift_reg_addr_1_reg_349    |  64|  32|    6|          0|
-    |icmp_ln56_reg_364                       |  64|  32|    1|          0|
+    |fir_int_int_shift_reg_1_addr_1_reg_725  |   5|   0|    5|          0|
+    |fir_int_int_shift_reg_1_addr_2_reg_751  |   5|   0|    5|          0|
+    |fir_int_int_shift_reg_1_addr_3_reg_781  |   5|   0|    5|          0|
+    |fir_int_int_shift_reg_1_addr_reg_696    |   5|   0|    5|          0|
+    |fir_int_int_shift_reg_2_addr_1_reg_730  |   5|   0|    5|          0|
+    |fir_int_int_shift_reg_2_addr_2_reg_757  |   5|   0|    5|          0|
+    |fir_int_int_shift_reg_2_addr_3_reg_787  |   5|   0|    5|          0|
+    |fir_int_int_shift_reg_2_addr_reg_702    |   5|   0|    5|          0|
+    |fir_int_int_shift_reg_3_addr_1_reg_735  |   5|   0|    5|          0|
+    |fir_int_int_shift_reg_3_addr_2_reg_763  |   5|   0|    5|          0|
+    |fir_int_int_shift_reg_3_addr_3_reg_793  |   5|   0|    5|          0|
+    |fir_int_int_shift_reg_3_addr_reg_708    |   5|   0|    5|          0|
+    |fir_int_int_shift_reg_4_addr_1_reg_740  |   5|   0|    5|          0|
+    |fir_int_int_shift_reg_4_addr_2_reg_769  |   5|   0|    5|          0|
+    |fir_int_int_shift_reg_4_addr_3_reg_799  |   5|   0|    5|          0|
+    |fir_int_int_shift_reg_4_addr_reg_714    |   5|   0|    5|          0|
+    |fir_int_int_shift_reg_addr_1_reg_720    |   5|   0|    5|          0|
+    |fir_int_int_shift_reg_addr_2_reg_745    |   5|   0|    5|          0|
+    |fir_int_int_shift_reg_addr_3_reg_775    |   5|   0|    5|          0|
+    |fir_int_int_shift_reg_addr_reg_690      |   5|   0|    5|          0|
+    |i_2_reg_660                             |  64|   0|   64|          0|
+    |i_fu_64                                 |  64|   0|   64|          0|
+    |icmp_ln56_reg_673                       |   1|   0|    1|          0|
+    |trunc_ln56_reg_682                      |   3|   0|    3|          0|
+    |add_ln60_2_reg_668                      |  64|  32|   64|          0|
+    |add_ln60_3_reg_677                      |  64|  32|   64|          0|
+    |i_2_reg_660                             |  64|  32|   64|          0|
+    |icmp_ln56_reg_673                       |  64|  32|    1|          0|
     +----------------------------------------+----+----+-----+-----------+
-    |Total                                   | 754| 192|  517|          0|
+    |Total                                   | 755| 128|  692|          0|
     +----------------------------------------+----+----+-----+-----------+
 
 
@@ -304,26 +330,40 @@
 |ap_done                           |  out|    1|  ap_ctrl_hs|  fir_Pipeline_VITIS_LOOP_56_1|  return value|
 |ap_idle                           |  out|    1|  ap_ctrl_hs|  fir_Pipeline_VITIS_LOOP_56_1|  return value|
 |ap_ready                          |  out|    1|  ap_ctrl_hs|  fir_Pipeline_VITIS_LOOP_56_1|  return value|
-|fir_int_int_shift_reg_address0    |  out|    6|   ap_memory|         fir_int_int_shift_reg|         array|
+|fir_int_int_shift_reg_address0    |  out|    5|   ap_memory|         fir_int_int_shift_reg|         array|
 |fir_int_int_shift_reg_ce0         |  out|    1|   ap_memory|         fir_int_int_shift_reg|         array|
 |fir_int_int_shift_reg_we0         |  out|    1|   ap_memory|         fir_int_int_shift_reg|         array|
 |fir_int_int_shift_reg_d0          |  out|   32|   ap_memory|         fir_int_int_shift_reg|         array|
-|fir_int_int_shift_reg_address1    |  out|    6|   ap_memory|         fir_int_int_shift_reg|         array|
+|fir_int_int_shift_reg_address1    |  out|    5|   ap_memory|         fir_int_int_shift_reg|         array|
 |fir_int_int_shift_reg_ce1         |  out|    1|   ap_memory|         fir_int_int_shift_reg|         array|
 |fir_int_int_shift_reg_q1          |   in|   32|   ap_memory|         fir_int_int_shift_reg|         array|
-|fir_int_int_shift_reg_1_address0  |  out|    6|   ap_memory|       fir_int_int_shift_reg_1|         array|
+|fir_int_int_shift_reg_1_address0  |  out|    5|   ap_memory|       fir_int_int_shift_reg_1|         array|
 |fir_int_int_shift_reg_1_ce0       |  out|    1|   ap_memory|       fir_int_int_shift_reg_1|         array|
 |fir_int_int_shift_reg_1_we0       |  out|    1|   ap_memory|       fir_int_int_shift_reg_1|         array|
 |fir_int_int_shift_reg_1_d0        |  out|   32|   ap_memory|       fir_int_int_shift_reg_1|         array|
-|fir_int_int_shift_reg_1_address1  |  out|    6|   ap_memory|       fir_int_int_shift_reg_1|         array|
+|fir_int_int_shift_reg_1_address1  |  out|    5|   ap_memory|       fir_int_int_shift_reg_1|         array|
 |fir_int_int_shift_reg_1_ce1       |  out|    1|   ap_memory|       fir_int_int_shift_reg_1|         array|
 |fir_int_int_shift_reg_1_q1        |   in|   32|   ap_memory|       fir_int_int_shift_reg_1|         array|
-|fir_int_int_shift_reg_2_address0  |  out|    6|   ap_memory|       fir_int_int_shift_reg_2|         array|
+|fir_int_int_shift_reg_2_address0  |  out|    5|   ap_memory|       fir_int_int_shift_reg_2|         array|
 |fir_int_int_shift_reg_2_ce0       |  out|    1|   ap_memory|       fir_int_int_shift_reg_2|         array|
 |fir_int_int_shift_reg_2_we0       |  out|    1|   ap_memory|       fir_int_int_shift_reg_2|         array|
 |fir_int_int_shift_reg_2_d0        |  out|   32|   ap_memory|       fir_int_int_shift_reg_2|         array|
-|fir_int_int_shift_reg_2_address1  |  out|    6|   ap_memory|       fir_int_int_shift_reg_2|         array|
+|fir_int_int_shift_reg_2_address1  |  out|    5|   ap_memory|       fir_int_int_shift_reg_2|         array|
 |fir_int_int_shift_reg_2_ce1       |  out|    1|   ap_memory|       fir_int_int_shift_reg_2|         array|
 |fir_int_int_shift_reg_2_q1        |   in|   32|   ap_memory|       fir_int_int_shift_reg_2|         array|
+|fir_int_int_shift_reg_3_address0  |  out|    5|   ap_memory|       fir_int_int_shift_reg_3|         array|
+|fir_int_int_shift_reg_3_ce0       |  out|    1|   ap_memory|       fir_int_int_shift_reg_3|         array|
+|fir_int_int_shift_reg_3_we0       |  out|    1|   ap_memory|       fir_int_int_shift_reg_3|         array|
+|fir_int_int_shift_reg_3_d0        |  out|   32|   ap_memory|       fir_int_int_shift_reg_3|         array|
+|fir_int_int_shift_reg_3_address1  |  out|    5|   ap_memory|       fir_int_int_shift_reg_3|         array|
+|fir_int_int_shift_reg_3_ce1       |  out|    1|   ap_memory|       fir_int_int_shift_reg_3|         array|
+|fir_int_int_shift_reg_3_q1        |   in|   32|   ap_memory|       fir_int_int_shift_reg_3|         array|
+|fir_int_int_shift_reg_4_address0  |  out|    5|   ap_memory|       fir_int_int_shift_reg_4|         array|
+|fir_int_int_shift_reg_4_ce0       |  out|    1|   ap_memory|       fir_int_int_shift_reg_4|         array|
+|fir_int_int_shift_reg_4_we0       |  out|    1|   ap_memory|       fir_int_int_shift_reg_4|         array|
+|fir_int_int_shift_reg_4_d0        |  out|   32|   ap_memory|       fir_int_int_shift_reg_4|         array|
+|fir_int_int_shift_reg_4_address1  |  out|    5|   ap_memory|       fir_int_int_shift_reg_4|         array|
+|fir_int_int_shift_reg_4_ce1       |  out|    1|   ap_memory|       fir_int_int_shift_reg_4|         array|
+|fir_int_int_shift_reg_4_q1        |   in|   32|   ap_memory|       fir_int_int_shift_reg_4|         array|
 +----------------------------------+-----+-----+------------+------------------------------+--------------+
 

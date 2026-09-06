@@ -22793,3 +22793,212 @@ ERROR: BuildSummary could not find BuildStep for cmdStepID: 'b6a6b0dc-dffa-4738-
 2026-09-06 14:19:06 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/lipuze/amdfpga/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
 2026-09-06 14:20:08 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/lipuze/amdfpga/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
 2026-09-06 14:20:40 [debug] : No tree item with id 'c-@--@-/0:genshin_start_hls (fir128)' found. 
+2026-09-06 14:20:55 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-09-06 14:20:55 [debug] : [ProjectDecorator] tree decoration updated 
+2026-09-06 14:20:55 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-09-06 14:20:56 [debug] : [ProjectDecorator] tree decoration updated 
+2026-09-06 14:20:56 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["514055e4-0090-4464-84a0-2aef049a340a",null,24,null,null,null,null,"/home/lipuze/genshin_start_hls/fir128/workspace/baseline"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-09-06 14:20:56 [debug] : >>>>>fetching >>>getComponentIncludes>>>>>>> {"0":"/home/lipuze/genshin_start_hls/fir11/workspace/baseline"}
+2026-09-06 14:20:56 [debug] : Received event from notification service: UPDATE_COMPILE_COMMAND. 
+2026-09-06 14:20:56 [debug] : >>>>>fetching >>>getComponentIncludes>>>>>>> {"0":"/home/lipuze/genshin_start_hls/fir128/workspace/baseline"}
+2026-09-06 14:20:56 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 2,
+        "startColumn": 29,
+        "endLineNumber": 6,
+        "endColumn": 6
+      },
+      "rangeLength": 195,
+      "text": "[\n        \"-I/home/lipuze/amdfpga/2026.1/Vitis/include\",\n        \"-I/home/lipuze/amdfpga/2026.1/Vitis/include/etc\",\n        \"-I/home/lipuze/amdfpga/2026.1/Vitis/lnx64/tools/auto_cc/include\"\n    ]",
+      "rangeOffset": 30,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\n",
+  "isEolChange": false,
+  "versionId": 23,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///home/lipuze/genshin_start_hls/_ide/settings.json"}
+2026-09-06 14:20:56 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///home/lipuze/genshin_start_hls/_ide/settings.json"}
+2026-09-06 14:20:56 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/lipuze/genshin_start_hls/_ide/settings.json"}
+2026-09-06 14:20:56 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"file:///home/lipuze/genshin_start_hls/_ide/settings.json"}
+2026-09-06 14:20:56 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///home/lipuze/genshin_start_hls/_ide/settings.json"}
+2026-09-06 14:20:56 [debug] : MonacoEditorModel.cancelSave {"0":"file:///home/lipuze/genshin_start_hls/_ide/settings.json"}
+2026-09-06 14:20:56 [debug] : MonacoEditorModel.cancelSave {"0":"file:///home/lipuze/genshin_start_hls/_ide/settings.json"}
+2026-09-06 14:20:57 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/lipuze/genshin_start_hls/_ide/settings.json"}
+2026-09-06 14:20:57 [debug] : MonacoEditorModel.cancelSave {"0":"file:///home/lipuze/genshin_start_hls/_ide/settings.json"}
+2026-09-06 14:20:57 [debug] : TextEditor is disposed! 
+2026-09-06 14:21:03 [debug] : start navigation 1 
+2026-09-06 14:21:03 [debug] : end navigation 0 
+2026-09-06 14:21:03 [debug] : ending navigation with location {"uri":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp","type":0,"context":{"line":68,"character":36}} 
+2026-09-06 14:21:04 [debug] : start navigation 1 
+2026-09-06 14:21:04 [debug] : end navigation 0 
+2026-09-06 14:21:04 [debug] : ending navigation with location {"uri":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp","type":0,"context":{"line":56,"character":35}} 
+2026-09-06 14:21:05 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 57,
+        "startColumn": 35,
+        "endLineNumber": 57,
+        "endColumn": 36
+      },
+      "rangeLength": 1,
+      "text": "",
+      "rangeOffset": 1679,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\n",
+  "isEolChange": false,
+  "versionId": 364,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:21:05 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:21:05 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:21:05 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:21:05 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:21:05 [debug] : start navigation 1 
+2026-09-06 14:21:05 [debug] : end navigation 0 
+2026-09-06 14:21:05 [debug] : ending navigation with location {"uri":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp","type":2,"context":{"range":{"start":{"line":56,"character":34},"end":{"line":56,"character":35}},"rangeLength":1,"text":""}} 
+2026-09-06 14:21:05 [debug] : start navigation 1 
+2026-09-06 14:21:05 [debug] : end navigation 0 
+2026-09-06 14:21:05 [debug] : ending navigation with location {"uri":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp","type":0,"context":{"line":56,"character":34}} 
+2026-09-06 14:21:06 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 57,
+        "startColumn": 35,
+        "endLineNumber": 57,
+        "endColumn": 35
+      },
+      "rangeLength": 0,
+      "text": "4",
+      "rangeOffset": 1679,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\n",
+  "isEolChange": false,
+  "versionId": 365,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:21:06 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:21:06 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:21:06 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:21:06 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:21:06 [debug] : start navigation 1 
+2026-09-06 14:21:06 [debug] : end navigation 0 
+2026-09-06 14:21:06 [debug] : ending navigation with location {"uri":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp","type":2,"context":{"range":{"start":{"line":56,"character":34},"end":{"line":56,"character":34}},"rangeLength":0,"text":"4"}} 
+2026-09-06 14:21:06 [debug] : start navigation 1 
+2026-09-06 14:21:06 [debug] : end navigation 0 
+2026-09-06 14:21:06 [debug] : ending navigation with location {"uri":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp","type":0,"context":{"line":56,"character":35}} 
+2026-09-06 14:21:07 [debug] : MonacoEditorModel.cancelSave {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:21:07 [debug] : start navigation 1 
+2026-09-06 14:21:07 [debug] : end navigation 0 
+2026-09-06 14:21:07 [debug] : ending navigation with location {"uri":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp","type":0,"context":{"line":67,"character":35}} 
+2026-09-06 14:21:07 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 68,
+        "startColumn": 35,
+        "endLineNumber": 68,
+        "endColumn": 36
+      },
+      "rangeLength": 1,
+      "text": "",
+      "rangeOffset": 1868,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\n",
+  "isEolChange": false,
+  "versionId": 366,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:21:07 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:21:07 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:21:07 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:21:07 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:21:07 [debug] : start navigation 1 
+2026-09-06 14:21:07 [debug] : end navigation 0 
+2026-09-06 14:21:07 [debug] : ending navigation with location {"uri":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp","type":2,"context":{"range":{"start":{"line":67,"character":34},"end":{"line":67,"character":35}},"rangeLength":1,"text":""}} 
+2026-09-06 14:21:07 [debug] : start navigation 1 
+2026-09-06 14:21:07 [debug] : end navigation 0 
+2026-09-06 14:21:07 [debug] : ending navigation with location {"uri":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp","type":0,"context":{"line":67,"character":34}} 
+2026-09-06 14:21:07 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 68,
+        "startColumn": 35,
+        "endLineNumber": 68,
+        "endColumn": 35
+      },
+      "rangeLength": 0,
+      "text": "4",
+      "rangeOffset": 1868,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\n",
+  "isEolChange": false,
+  "versionId": 367,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:21:07 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:21:07 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:21:07 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:21:07 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:21:07 [debug] : start navigation 1 
+2026-09-06 14:21:07 [debug] : end navigation 0 
+2026-09-06 14:21:07 [debug] : ending navigation with location {"uri":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp","type":2,"context":{"range":{"start":{"line":67,"character":34},"end":{"line":67,"character":34}},"rangeLength":0,"text":"4"}} 
+2026-09-06 14:21:07 [debug] : start navigation 1 
+2026-09-06 14:21:07 [debug] : end navigation 0 
+2026-09-06 14:21:07 [debug] : ending navigation with location {"uri":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp","type":0,"context":{"line":67,"character":35}} 
+2026-09-06 14:21:08 [debug] : MonacoEditorModel.cancelSave {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:21:09 [debug] : MonacoEditorModel.cancelSave {"0":"file:///home/lipuze/genshin_start_hls/fir128/fir.cpp"}
+2026-09-06 14:21:10 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/lipuze/amdfpga/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-09-06 14:21:11 [debug] : [Hls Flow Server] Executing method:runOperation with connection:(object). {"0":"request:","1":{"componentLocation":"/home/lipuze/genshin_start_hls/fir128/workspace/baseline","operationType":1}}
+2026-09-06 14:21:11 [debug] : Received event from notification service: ON_DID_LAUNCH_START. 
+2026-09-06 14:21:19 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2026-09-06 14:21:20 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["7c772bd6-7b83-4efe-8712-e09aa9f8dbd1",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-09-06 14:21:20 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2026-09-06 14:21:20 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["ee874f16-c237-4661-97f7-72eb44b4a5cb",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-09-06 14:21:20 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2026-09-06 14:21:38 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2026-09-06 14:21:38 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["632e07d5-3ac2-4508-8278-8f91576222fc",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-09-06 14:21:38 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2026-09-06 14:21:38 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["b76accad-cc39-4ae7-a994-1d37b69b2534",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-09-06 14:21:38 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2026-09-06 14:21:46 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2026-09-06 14:21:46 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["b8fed7bb-eb69-4fe9-80c7-35e15b8eff60",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-09-06 14:21:46 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2026-09-06 14:21:46 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["a40d84b8-0996-4e53-9054-c3e9248153ce",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-09-06 14:21:46 [debug] : [Hls Flow Server] Executing method:cancelOperation with connection:(object). {"0":"request:","1":{"componentLocation":"/home/lipuze/genshin_start_hls/fir128/workspace/baseline","operationType":1}}
+2026-09-06 14:21:46 [debug] : Received event from notification service: ON_DID_LAUNCH_STOP. 
+2026-09-06 14:21:46 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2026-09-06 14:21:46 [debug] : Received event from notification service: ON_DID_REPORT_TIMESTAMP_CHANGE. 
+2026-09-06 14:21:46 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2026-09-06 14:21:46 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["b83989d6-1efd-49b0-9148-d579fdb4356e",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-09-06 14:21:46 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2026-09-06 14:21:46 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["fcf441ae-b459-4341-86c9-45c82a9b934b",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-09-06 14:21:46 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2026-09-06 14:22:13 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/lipuze/amdfpga/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-09-06 14:23:15 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/lipuze/amdfpga/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-09-06 14:24:17 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/lipuze/amdfpga/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-09-06 14:25:06 [debug] : No tree item with id 'c-@--@-/0:genshin_start_hls (fir128)' found. 
