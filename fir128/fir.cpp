@@ -31,48 +31,20 @@ void fir (
     
 	
 	static data_t shift_reg[N];
-    #pragma HLS array_partition variable=shift_reg block factor =4
-    
     acc_t ans = 0;
 
-    // // shift + MAC
-    // #pragma HLS pipeline
-    // for (int i = N - 1; i > 0; i--) {
-    //     shift_reg[i] = shift_reg[i - 1];
-    //     ans += shift_reg[i] * h[i];
-    // }
-    // shift_reg[0] = x;
-    // ans += shift_reg[0] * h[0];
-
-    
-    // for (int i = N - 1; i >= 0; i--) {
-    //     if (i == 0)
-    //         shift_reg[0] = x;
-    //     else
-    //         shift_reg[i] = shift_reg[i - 1];
-    //     ans += shift_reg[i] * h[i];
-    // }
-
-
-
+    // shift + MAC
+    #pragma HLS pipeline
     for (int i = N - 1; i > 0; i--) {
-        // #pragma HLS unroll factor=4
-        // #pragma HLS pipeline II=3
-        
         shift_reg[i] = shift_reg[i - 1];
-    }
-    shift_reg[0] = x;
-
-
-
-
-    for (int i = 0; i < N; i++) {
-        #pragma HLS unroll factor=4
-        // #pragma HLS pipeline II=3
         ans += shift_reg[i] * h[i];
     }
-    
+    shift_reg[0] = x;
+    ans += shift_reg[0] * h[0];
+
     *y = ans;
+
+
 }
 
 
