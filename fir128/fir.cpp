@@ -31,14 +31,14 @@ void fir (
 	static data_t shift_reg[N];
     acc_t ans = 0;
 
-    // shift + MAC
-    #pragma HLS pipeline
-    for (int i = N - 1; i > 0; i--) {
-        shift_reg[i] = shift_reg[i - 1];
-        ans += shift_reg[i] * h[i];
-    }
-    shift_reg[0] = x;
-    ans += shift_reg[0] * h[0];
+    // // shift + MAC
+    // #pragma HLS pipeline
+    // for (int i = N - 1; i > 0; i--) {
+    //     shift_reg[i] = shift_reg[i - 1];
+    //     ans += shift_reg[i] * h[i];
+    // }
+    // shift_reg[0] = x;
+    // ans += shift_reg[0] * h[0];
 
     
     // for (int i = N - 1; i >= 0; i--) {
@@ -48,6 +48,17 @@ void fir (
     //         shift_reg[i] = shift_reg[i - 1];
     //     ans += shift_reg[i] * h[i];
     // }
+
+#pragma HLS unroll factor=2
+    for (int i = N - 1; i > 0; i--) {
+        shift_reg[i] = shift_reg[i - 1];
+    }
+    shift_reg[0] = x;
+
+#pragma HLS unroll factor=2
+    for (int i = 0; i < N; i++) {
+        ans += shift_reg[i] * h[i];
+    }
     
     *y = ans;
 }
