@@ -1,0 +1,28 @@
+[
+  {
+    "id": "8b261e96-7dcd-42f1-be4a-26c123fe90c8",
+    "title": "why failed nonzero return value?",
+    "lastInteraction": "2026-09-06T01:08:42.806Z",
+    "isActive": true,
+    "requests": [
+      {
+        "id": "3074d5e6-6e54-49a6-8603-cc2e52ce3416",
+        "agentId": "Orchestrator",
+        "request": {
+          "text": "why failed nonzero return value?"
+        },
+        "response": {
+          "id": "a34781d2-de83-4118-908e-f9a2d3256539",
+          "isComplete": true,
+          "isCanceled": false,
+          "isError": true,
+          "content": [
+            {
+              "kind": "error"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

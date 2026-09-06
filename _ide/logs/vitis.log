@@ -6,3 +6,4 @@
 11:06:12 INFO  : updated workspace path: /home/lipuze/genshin_start_hls
 11:06:21 INFO  : Cleaning up emulator processes (xsim, xsimk, qemu-system) on shutdown
 11:06:40 INFO  : updated workspace path: /home/lipuze/genshin_start_hls
+11:07:05 INFO  : Device init progress broadcast complete, stopping scheduler
