@@ -4,7 +4,7 @@
 == Synthesis Summary Report of 'fir'
 ================================================================
 + General Information: 
-    * Date:           Sun Sep  6 12:56:28 2026
+    * Date:           Sun Sep  6 13:05:11 2026
     * Version:        2026.1 (Build 6493734 on Jun 16 2026)
     * Project:        baseline
     * Solution:       hls (Vitis Kernel Flow Target)
@@ -119,9 +119,9 @@
 +--------+----------+---------------------------+---------------------------------------------------------------------------+
 | Type   | Options  | Location                  | Messages                                                                  |
 +--------+----------+---------------------------+---------------------------------------------------------------------------+
-| UNROLL | factor=2 | in fir (../../fir.cpp:52) | unroll pragma is ignored, because it can be only applied inside loop body |
+| UNROLL | factor=4 | in fir (../../fir.cpp:52) | unroll pragma is ignored, because it can be only applied inside loop body |
 |        |          |                           | Not implemented                                                           |
-| UNROLL | factor=2 | in fir (../../fir.cpp:58) | unroll pragma is ignored, because it can be only applied inside loop body |
+| UNROLL | factor=4 | in fir (../../fir.cpp:58) | unroll pragma is ignored, because it can be only applied inside loop body |
 |        |          |                           | Not implemented                                                           |
 +--------+----------+---------------------------+---------------------------------------------------------------------------+
 

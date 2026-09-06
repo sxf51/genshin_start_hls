@@ -49,13 +49,13 @@ void fir (
     //     ans += shift_reg[i] * h[i];
     // }
 
-#pragma HLS unroll factor=2
+#pragma HLS unroll factor=4
     for (int i = N - 1; i > 0; i--) {
         shift_reg[i] = shift_reg[i - 1];
     }
     shift_reg[0] = x;
 
-#pragma HLS unroll factor=2
+#pragma HLS unroll factor=4
     for (int i = 0; i < N; i++) {
         ans += shift_reg[i] * h[i];
     }

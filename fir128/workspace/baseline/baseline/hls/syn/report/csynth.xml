@@ -676,11 +676,11 @@
         <Pragma type="interface" status="valid" location="../../fir.cpp:27" parentFunction="fir" variable="x" isDirective="0" options="mode=s_axilite port=x"/>
         <Pragma type="interface" status="valid" location="../../fir.cpp:28" parentFunction="fir" variable="return" isDirective="0" options="mode=s_axilite port=return"/>
         <Pragma type="interface" status="valid" location="../../fir.cpp:29" parentFunction="fir" variable="return" isDirective="0" options="mode=ap_ctrl_chain port=return"/>
-        <Pragma type="unroll" status="invalid" location="../../fir.cpp:52" parentFunction="fir" variable="" isDirective="0" options="factor=2">
+        <Pragma type="unroll" status="invalid" location="../../fir.cpp:52" parentFunction="fir" variable="" isDirective="0" options="factor=4">
             <Msg msg_id="207-7042" msg_severity="WARNING" msg_body="unroll pragma is ignored, because it can be only applied inside loop body"/>
             <Msg msg_id="" msg_severity="ERROR" msg_body="Not implemented"/>
         </Pragma>
-        <Pragma type="unroll" status="invalid" location="../../fir.cpp:58" parentFunction="fir" variable="" isDirective="0" options="factor=2">
+        <Pragma type="unroll" status="invalid" location="../../fir.cpp:58" parentFunction="fir" variable="" isDirective="0" options="factor=4">
             <Msg msg_id="207-7042" msg_severity="WARNING" msg_body="unroll pragma is ignored, because it can be only applied inside loop body"/>
             <Msg msg_id="" msg_severity="ERROR" msg_body="Not implemented"/>
         </Pragma>
