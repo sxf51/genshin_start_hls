@@ -1,0 +1,15 @@
+{
+  "workspaceRoot": "/home/lipuze/genshin_start_hls",
+  "mapping": {
+    "fir11/fir_test.cpp": "fir11/workspace/baseline",
+    "fir128/out.gold.dat": "fir128/workspace/baseline",
+    "fir128/fir_test.cpp": "fir128/workspace/baseline",
+    "fir128/fir.cpp": "fir128/workspace/baseline",
+    "fir11/out.gold.dat": "fir11/workspace/baseline",
+    "fir11/fir.cpp": "fir11/workspace/baseline",
+    "fir128/input.dat": "fir128/workspace/baseline",
+    "fir11/fir.h": "fir11/workspace/baseline",
+    "fir128/fir.h": "fir128/workspace/baseline",
+    "fir11/input.dat": "fir11/workspace/baseline"
+  }
+}
