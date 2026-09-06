@@ -14,59 +14,36 @@
 </UserAssignments>
 
 <PerformanceEstimates>
-<PipelineType>loop auto-rewind stp (delay=3 cycle(s))</PipelineType>
+<PipelineType>no</PipelineType>
 <SummaryOfTimingAnalysis>
 <unit>ns</unit>
-<EstimatedClockPeriod>6.549</EstimatedClockPeriod>
+<EstimatedClockPeriod>6.100</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>259</Best-caseLatency>
-<Average-caseLatency>259</Average-caseLatency>
-<Worst-caseLatency>259</Worst-caseLatency>
-<Best-caseRealTimeLatency>2.590 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>2.590 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>2.590 us</Worst-caseRealTimeLatency>
-<Interval-min>259</Interval-min>
-<Interval-max>259</Interval-max>
+<Best-caseLatency>131</Best-caseLatency>
+<Average-caseLatency>131</Average-caseLatency>
+<Worst-caseLatency>131</Worst-caseLatency>
+<Best-caseRealTimeLatency>1.310 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>1.310 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>1.310 us</Worst-caseRealTimeLatency>
+<Interval-min>132</Interval-min>
+<Interval-max>132</Interval-max>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
-<SummaryOfLoopLatency>
-<VITIS_LOOP_36_1>
-<Slack>7.30</Slack>
-<TripCount>128</TripCount>
-<isPerfectNested>0</isPerfectNested>
-<Latency>257</Latency>
-<AbsoluteTimeLatency>2570</AbsoluteTimeLatency>
-<PipelineII>2</PipelineII>
-<PipelineDepth>4</PipelineDepth>
-<PerformancePragma>-</PerformancePragma>
-<InstanceList>
-</InstanceList>
-</VITIS_LOOP_36_1>
-</SummaryOfLoopLatency>
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>fir.cpp:36</SourceLocation>
-<SummaryOfLoopViolations>
-<VITIS_LOOP_36_1>
-<Name>VITIS_LOOP_36_1</Name>
-<IssueType>II Violation</IssueType>
-<ViolationType>Memory Dependency</ViolationType>
-<IterationDistance>1</IterationDistance>
-<SourceLocation>fir.cpp:36</SourceLocation>
-</VITIS_LOOP_36_1>
-</SummaryOfLoopViolations>
+<SourceLocation>fir.cpp:35</SourceLocation>
 </SummaryOfViolations>
 </PerformanceEstimates>
 
 <AreaEstimates>
 <Resources>
-<BRAM_18K>5</BRAM_18K>
+<BRAM_18K>2</BRAM_18K>
 <DSP>2</DSP>
-<FF>216</FF>
-<LUT>451</LUT>
+<FF>235</FF>
+<LUT>433</LUT>
 <URAM>0</URAM>
 </Resources>
 <AvailableResources>

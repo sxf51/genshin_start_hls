@@ -33,13 +33,21 @@ void fir (
 
     // shift + MAC
     #pragma HLS pipeline off
-    for (int i = N - 1; i >= 0; i--) {
-        if (i == 0)
-            shift_reg[0] = x;
-        else
-            shift_reg[i] = shift_reg[i - 1];
+    for (int i = N - 1; i > 0; i--) {
+        shift_reg[i] = shift_reg[i - 1];
         ans += shift_reg[i] * h[i];
     }
+    shift_reg[0] = x;
+    ans += shift_reg[0] * h[0];
+
+    
+    // for (int i = N - 1; i >= 0; i--) {
+    //     if (i == 0)
+    //         shift_reg[0] = x;
+    //     else
+    //         shift_reg[i] = shift_reg[i - 1];
+    //     ans += shift_reg[i] * h[i];
+    // }
     
     *y = ans;
 }
