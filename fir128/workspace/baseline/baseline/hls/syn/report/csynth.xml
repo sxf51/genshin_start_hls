@@ -4,8 +4,7 @@
     </ReportVersion>
     <UserAssignments>
         <unit>ns</unit>
-        <ProductFamily>zynquplus</ProductFamily>
-        <Part>xck26-sfvc784-2LV-c</Part>
+        <ProductFamily/>
         <TopModelName>fir</TopModelName>
         <TargetClockPeriod>10.00</TargetClockPeriod>
         <ClockUncertainty>2.70</ClockUncertainty>
@@ -14,7 +13,7 @@
         <PipelineType>no</PipelineType>
         <SummaryOfTimingAnalysis>
             <unit>ns</unit>
-            <EstimatedClockPeriod>7.279</EstimatedClockPeriod>
+            <EstimatedClockPeriod>6.100</EstimatedClockPeriod>
         </SummaryOfTimingAnalysis>
         <SummaryOfOverallLatency>
             <unit>clock cycles</unit>
@@ -36,10 +35,10 @@
     </PerformanceEstimates>
     <AreaEstimates>
         <Resources>
-            <BRAM_18K>4</BRAM_18K>
-            <DSP>4</DSP>
-            <FF>349</FF>
-            <LUT>681</LUT>
+            <BRAM_18K>3</BRAM_18K>
+            <DSP>2</DSP>
+            <FF>216</FF>
+            <LUT>485</LUT>
             <URAM>0</URAM>
         </Resources>
         <AvailableResources>
@@ -288,7 +287,7 @@
                     <ModuleName>fir_Pipeline_VITIS_LOOP_41_2</ModuleName>
                     <IsCompInst>true</IsCompInst>
                     <ID>76</ID>
-                    <BindInstances>icmp_ln41_fu_88_p2 add_ln41_fu_94_p2 mul_5s_64s_64_1_1_U2 ans_1_fu_124_p2 h_U</BindInstances>
+                    <BindInstances>icmp_ln41_fu_94_p2 add_ln41_fu_100_p2 mul_6s_32s_32_1_1_U2 ans_1_fu_120_p2 p_const_Z3firPii_h_U</BindInstances>
                 </Instance>
             </InstancesList>
             <BindInstances>shift_reg_U control_s_axi_U</BindInstances>
@@ -379,7 +378,7 @@
                 <SummaryOfTimingAnalysis>
                     <TargetClockPeriod>10.00</TargetClockPeriod>
                     <ClockUncertainty>2.70</ClockUncertainty>
-                    <EstimatedClockPeriod>7.279</EstimatedClockPeriod>
+                    <EstimatedClockPeriod>6.100</EstimatedClockPeriod>
                 </SummaryOfTimingAnalysis>
                 <SummaryOfOverallLatency>
                     <Best-caseLatency>130</Best-caseLatency>
@@ -423,16 +422,16 @@
             </PerformanceEstimates>
             <AreaEstimates>
                 <Resources>
-                    <BRAM_18K>0</BRAM_18K>
+                    <BRAM_18K>1</BRAM_18K>
                     <AVAIL_BRAM>288</AVAIL_BRAM>
-                    <UTIL_BRAM>0</UTIL_BRAM>
-                    <DSP>4</DSP>
+                    <UTIL_BRAM>~0</UTIL_BRAM>
+                    <DSP>2</DSP>
                     <AVAIL_DSP>1248</AVAIL_DSP>
                     <UTIL_DSP>~0</UTIL_DSP>
-                    <FF>80</FF>
+                    <FF>43</FF>
                     <AVAIL_FF>234240</AVAIL_FF>
                     <UTIL_FF>~0</UTIL_FF>
-                    <LUT>205</LUT>
+                    <LUT>137</LUT>
                     <AVAIL_LUT>117120</AVAIL_LUT>
                     <UTIL_LUT>~0</UTIL_LUT>
                     <URAM>0</URAM>
@@ -441,11 +440,11 @@
                 </Resources>
             </AreaEstimates>
             <BindNodes>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln41_fu_88_p2" SOURCE="fir.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln41" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln41_fu_94_p2" SOURCE="fir.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln41" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="mul" PRAGMA="" RTLNAME="mul_5s_64s_64_1_1_U2" SOURCE="fir.cpp:43" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln43" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="ans_1_fu_124_p2" SOURCE="fir.cpp:43" STORAGESUBTYPE="" URAM="0" VARIABLE="ans_1" VISIBLE="true"/>
-                <BindNode BINDID="17179869188" BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" CE_REG="N" DISPNAME="bind_storage rom_1p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="rom_1p" PRAGMA="" RTLNAME="h_U" SOURCE="" STORAGESIZE="5 128 1" STORAGESUBTYPE="" STORAGEUSAGE="rom_1p" URAM="0" VARIABLE="h" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln41_fu_94_p2" SOURCE="fir.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln41" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln41_fu_100_p2" SOURCE="fir.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln41" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op mul" DSP="2" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="mul" PRAGMA="" RTLNAME="mul_6s_32s_32_1_1_U2" SOURCE="fir.cpp:43" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln43" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="ans_1_fu_120_p2" SOURCE="fir.cpp:43" STORAGESUBTYPE="" URAM="0" VARIABLE="ans_1" VISIBLE="true"/>
+                <BindNode BINDID="17179869188" BINDTYPE="storage" BRAM="1" BUNDLEDNAME="" CE_REG="N" DISPNAME="bind_storage rom_1p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="rom_1p" PRAGMA="" RTLNAME="p_const_Z3firPii_h_U" SOURCE="" STORAGESIZE="32 128 1" STORAGESUBTYPE="" STORAGEUSAGE="rom_1p" URAM="0" VARIABLE="p_const_Z3firPii_h" VISIBLE="true"/>
             </BindNodes>
         </Module>
         <Module>
@@ -454,7 +453,7 @@
                 <SummaryOfTimingAnalysis>
                     <TargetClockPeriod>10.00</TargetClockPeriod>
                     <ClockUncertainty>2.70</ClockUncertainty>
-                    <EstimatedClockPeriod>7.279</EstimatedClockPeriod>
+                    <EstimatedClockPeriod>6.100</EstimatedClockPeriod>
                 </SummaryOfTimingAnalysis>
                 <SummaryOfOverallLatency>
                     <Best-caseLatency>264</Best-caseLatency>
@@ -475,16 +474,16 @@
             </PerformanceEstimates>
             <AreaEstimates>
                 <Resources>
-                    <BRAM_18K>4</BRAM_18K>
+                    <BRAM_18K>3</BRAM_18K>
                     <AVAIL_BRAM>288</AVAIL_BRAM>
                     <UTIL_BRAM>1</UTIL_BRAM>
-                    <DSP>4</DSP>
+                    <DSP>2</DSP>
                     <AVAIL_DSP>1248</AVAIL_DSP>
                     <UTIL_DSP>~0</UTIL_DSP>
-                    <FF>349</FF>
+                    <FF>216</FF>
                     <AVAIL_FF>234240</AVAIL_FF>
                     <UTIL_FF>~0</UTIL_FF>
-                    <LUT>681</LUT>
+                    <LUT>485</LUT>
                     <AVAIL_LUT>117120</AVAIL_LUT>
                     <UTIL_LUT>~0</UTIL_LUT>
                     <URAM>0</URAM>
@@ -493,27 +492,26 @@
                 </Resources>
             </AreaEstimates>
             <BindNodes>
-                <BindNode BINDID="17179869187" BINDTYPE="storage" BRAM="4" BUNDLEDNAME="" CE_REG="N" DISPNAME="bind_storage ram_2p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="ram_2p" PRAGMA="" RTLNAME="shift_reg_U" SOURCE="" STORAGESIZE="64 128 1" STORAGESUBTYPE="" STORAGEUSAGE="ram_2p" URAM="0" VARIABLE="shift_reg" VISIBLE="true"/>
+                <BindNode BINDID="17179869187" BINDTYPE="storage" BRAM="2" BUNDLEDNAME="" CE_REG="N" DISPNAME="bind_storage ram_2p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="ram_2p" PRAGMA="" RTLNAME="shift_reg_U" SOURCE="" STORAGESIZE="32 128 1" STORAGESUBTYPE="" STORAGEUSAGE="ram_2p" URAM="0" VARIABLE="shift_reg" VISIBLE="true"/>
                 <BindNode BINDTYPE="adapter" BRAM="0" BUNDLEDNAME="control" CE_REG="" DISPNAME="bind_adapter " DSP="0" ID="" IMPL="" LATENCY="" LOOP="" OPTYPE="" PRAGMA="" RTLNAME="control_s_axi_U" SOURCE="" STORAGESIZE="" STORAGESUBTYPE="s_axilite" STORAGEUSAGE="interface" URAM="0" VARIABLE=""/>
             </BindNodes>
         </Module>
     </ModuleInformation>
     <FIFOInformation/>
     <UserConfigCommands>
-        <config_interface m_axi_alignment_size="64" m_axi_max_widen_data_size="512"/>
+        <config_interface m_axi_alignment_size="1"/>
         <config_rtl auto_prefix="1"/>
     </UserConfigCommands>
     <Args>
-        <Arg ArgName="y" index="0" direction="out" srcType="ap_int&lt;64&gt;*" srcSize="64">
+        <Arg ArgName="y" index="0" direction="out" srcType="int*" srcSize="32">
             <hwRefs>
-                <hwRef type="register" interface="s_axi_control" name="y_1" usage="data" direction="out"/>
-                <hwRef type="register" interface="s_axi_control" name="y_2" usage="data" direction="out"/>
+                <hwRef type="register" interface="s_axi_control" name="y" usage="data" direction="out"/>
+                <hwRef type="register" interface="s_axi_control" name="y_ctrl" usage="control" direction="out"/>
             </hwRefs>
         </Arg>
-        <Arg ArgName="x" index="1" direction="in" srcType="ap_int&lt;64&gt;" srcSize="64">
+        <Arg ArgName="x" index="1" direction="in" srcType="int" srcSize="32">
             <hwRefs>
-                <hwRef type="register" interface="s_axi_control" name="x_1" usage="data" direction="in"/>
-                <hwRef type="register" interface="s_axi_control" name="x_2" usage="data" direction="in"/>
+                <hwRef type="register" interface="s_axi_control" name="x" usage="data" direction="in"/>
             </hwRefs>
         </Arg>
     </Args>
@@ -573,30 +571,26 @@
                         <field offset="2" width="30" name="RESERVED_0" access="R" description="Reserved.  0s on read."/>
                     </fields>
                 </register>
-                <register offset="0x10" name="y_1" access="R" description="Data signal of y" range="32">
+                <register offset="0x10" name="y" access="R" description="Data signal of y" range="32">
                     <fields>
                         <field offset="0" width="32" name="y" access="R" description="Bit 31 to 0 of y"/>
                     </fields>
                 </register>
-                <register offset="0x14" name="y_2" access="R" description="Data signal of y" range="32">
+                <register offset="0x14" name="y_ctrl" access="R" description="Control signal of y" range="32">
                     <fields>
-                        <field offset="0" width="32" name="y" access="R" description="Bit 63 to 32 of y"/>
+                        <field offset="0" width="1" name="y_ap_vld" access="R" description="Control signal y_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
                     </fields>
                 </register>
-                <register offset="0x28" name="x_1" access="W" description="Data signal of x" range="32">
+                <register offset="0x20" name="x" access="W" description="Data signal of x" range="32">
                     <fields>
                         <field offset="0" width="32" name="x" access="W" description="Bit 31 to 0 of x"/>
-                    </fields>
-                </register>
-                <register offset="0x2c" name="x_2" access="W" description="Data signal of x" range="32">
-                    <fields>
-                        <field offset="0" width="32" name="x" access="W" description="Bit 63 to 32 of x"/>
                     </fields>
                 </register>
             </registers>
             <constraints>
                 <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="16" argName="y"/>
-                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="40" argName="x"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="32" argName="x"/>
             </constraints>
         </Interface>
         <Interface InterfaceName="ap_clk" type="clock" busTypeName="clock" mode="slave">
@@ -649,10 +643,9 @@
                     <column name="s_axi_control">GIER, 0x04, 32, RW, Global Interrupt Enable Register, 0=Enable</column>
                     <column name="s_axi_control">IP_IER, 0x08, 32, RW, IP Interrupt Enable Register, 0=CHAN0_INT_EN 1=CHAN1_INT_EN</column>
                     <column name="s_axi_control">IP_ISR, 0x0c, 32, RW, IP Interrupt Status Register, 0=CHAN0_INT_ST 1=CHAN1_INT_ST</column>
-                    <column name="s_axi_control">y_1, 0x10, 32, R, Data signal of y, </column>
-                    <column name="s_axi_control">y_2, 0x14, 32, R, Data signal of y, </column>
-                    <column name="s_axi_control">x_1, 0x28, 32, W, Data signal of x, </column>
-                    <column name="s_axi_control">x_2, 0x2c, 32, W, Data signal of x, </column>
+                    <column name="s_axi_control">y, 0x10, 32, R, Data signal of y, </column>
+                    <column name="s_axi_control">y_ctrl, 0x14, 32, R, Control signal of y, 0=y_ap_vld</column>
+                    <column name="s_axi_control">x, 0x20, 32, W, Data signal of x, </column>
                 </table>
             </item>
             <item name="TOP LEVEL CONTROL">
@@ -671,17 +664,16 @@
             <item name="Top Function Arguments">
                 <table>
                     <keys size="3">Argument, Direction, Datatype</keys>
-                    <column name="y">out, ap_int&lt;64&gt;*</column>
-                    <column name="x">in, ap_int&lt;64&gt;</column>
+                    <column name="y">out, int*</column>
+                    <column name="x">in, int</column>
                 </table>
             </item>
             <item name="SW-to-HW Mapping">
                 <table>
                     <keys size="4">Argument, HW Interface, HW Type, HW Info</keys>
-                    <column name="y">s_axi_control, register, name=y_1 offset=0x10 range=32</column>
-                    <column name="y">s_axi_control, register, name=y_2 offset=0x14 range=32</column>
-                    <column name="x">s_axi_control, register, name=x_1 offset=0x28 range=32</column>
-                    <column name="x">s_axi_control, register, name=x_2 offset=0x2c range=32</column>
+                    <column name="y">s_axi_control, register, name=y offset=0x10 range=32</column>
+                    <column name="y">s_axi_control, register, name=y_ctrl offset=0x14 range=32</column>
+                    <column name="x">s_axi_control, register, name=x offset=0x20 range=32</column>
                 </table>
             </item>
         </section>

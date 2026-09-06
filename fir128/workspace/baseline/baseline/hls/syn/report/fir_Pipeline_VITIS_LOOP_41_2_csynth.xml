@@ -6,8 +6,7 @@
 
 <UserAssignments>
 <unit>ns</unit>
-<ProductFamily>zynquplus</ProductFamily>
-<Part>xck26-sfvc784-2LV-c</Part>
+<ProductFamily></ProductFamily>
 <TopModelName>fir_Pipeline_VITIS_LOOP_41_2</TopModelName>
 <TargetClockPeriod>10.00</TargetClockPeriod>
 <ClockUncertainty>2.70</ClockUncertainty>
@@ -17,7 +16,7 @@
 <PipelineType>loop pipeline stp</PipelineType>
 <SummaryOfTimingAnalysis>
 <unit>ns</unit>
-<EstimatedClockPeriod>7.279</EstimatedClockPeriod>
+<EstimatedClockPeriod>6.100</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
@@ -62,10 +61,10 @@
 
 <AreaEstimates>
 <Resources>
-<BRAM_18K>0</BRAM_18K>
-<DSP>4</DSP>
-<FF>80</FF>
-<LUT>205</LUT>
+<BRAM_18K>1</BRAM_18K>
+<DSP>2</DSP>
+<FF>43</FF>
+<LUT>137</LUT>
 <URAM>0</URAM>
 </Resources>
 <AvailableResources>
@@ -152,7 +151,7 @@
 <IOProtocol>ap_vld</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>out</Dir>
-<Bits>64</Bits>
+<Bits>32</Bits>
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
@@ -196,7 +195,7 @@
 <IOProtocol>ap_memory</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>in</Dir>
-<Bits>64</Bits>
+<Bits>32</Bits>
 <Attribute>data</Attribute>
 </RtlPorts>
 </InterfaceSummary>
