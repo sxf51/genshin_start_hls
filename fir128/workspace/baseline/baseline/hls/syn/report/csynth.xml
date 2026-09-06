@@ -277,18 +277,18 @@
             <ModuleName>fir</ModuleName>
             <InstancesList>
                 <Instance>
-                    <InstName>grp_fir_Pipeline_VITIS_LOOP_53_1_fu_70</InstName>
-                    <ModuleName>fir_Pipeline_VITIS_LOOP_53_1</ModuleName>
+                    <InstName>grp_fir_Pipeline_VITIS_LOOP_56_1_fu_70</InstName>
+                    <ModuleName>fir_Pipeline_VITIS_LOOP_56_1</ModuleName>
                     <IsCompInst>true</IsCompInst>
                     <ID>70</ID>
-                    <BindInstances>icmp_ln53_fu_64_p2 add_ln54_fu_70_p2</BindInstances>
+                    <BindInstances>icmp_ln56_fu_64_p2 add_ln60_fu_70_p2</BindInstances>
                 </Instance>
                 <Instance>
-                    <InstName>grp_fir_Pipeline_VITIS_LOOP_59_2_fu_76</InstName>
-                    <ModuleName>fir_Pipeline_VITIS_LOOP_59_2</ModuleName>
+                    <InstName>grp_fir_Pipeline_VITIS_LOOP_67_2_fu_76</InstName>
+                    <ModuleName>fir_Pipeline_VITIS_LOOP_67_2</ModuleName>
                     <IsCompInst>true</IsCompInst>
                     <ID>76</ID>
-                    <BindInstances>icmp_ln59_fu_94_p2 add_ln59_fu_100_p2 mul_6s_32s_32_1_1_U2 ans_1_fu_120_p2 p_const_Z3firPii_h_U</BindInstances>
+                    <BindInstances>icmp_ln67_fu_94_p2 add_ln67_fu_100_p2 mul_6s_32s_32_1_1_U2 ans_1_fu_120_p2 p_const_Z3firPii_h_U</BindInstances>
                 </Instance>
             </InstancesList>
             <BindInstances>shift_reg_U control_s_axi_U</BindInstances>
@@ -296,9 +296,9 @@
     </RTLDesignHierarchy>
     <ModuleInformation>
         <Module>
-            <Name>fir_Pipeline_VITIS_LOOP_53_1</Name>
+            <Name>fir_Pipeline_VITIS_LOOP_56_1</Name>
             <Loops>
-                <VITIS_LOOP_53_1/>
+                <VITIS_LOOP_56_1/>
             </Loops>
             <PerformanceEstimates>
                 <SummaryOfTimingAnalysis>
@@ -318,8 +318,8 @@
                     <PerformancePragma>-</PerformancePragma>
                 </SummaryOfOverallLatency>
                 <SummaryOfLoopLatency>
-                    <VITIS_LOOP_53_1>
-                        <Name>VITIS_LOOP_53_1</Name>
+                    <VITIS_LOOP_56_1>
+                        <Name>VITIS_LOOP_56_1</Name>
                         <Slack>7.30</Slack>
                         <TripCount>127</TripCount>
                         <isPerfectNested>0</isPerfectNested>
@@ -330,19 +330,19 @@
                         <PipelineType>yes</PipelineType>
                         <PerformancePragma>-</PerformancePragma>
                         <InstanceList/>
-                    </VITIS_LOOP_53_1>
+                    </VITIS_LOOP_56_1>
                 </SummaryOfLoopLatency>
                 <SummaryOfViolations>
                     <IssueType>-</IssueType>
                     <ViolationType>-</ViolationType>
-                    <SourceLocation>fir.cpp:53</SourceLocation>
+                    <SourceLocation>fir.cpp:56</SourceLocation>
                     <SummaryOfLoopViolations>
-                        <VITIS_LOOP_53_1>
-                            <Name>VITIS_LOOP_53_1</Name>
+                        <VITIS_LOOP_56_1>
+                            <Name>VITIS_LOOP_56_1</Name>
                             <IssueType>-</IssueType>
                             <ViolationType>-</ViolationType>
-                            <SourceLocation>fir.cpp:54</SourceLocation>
-                        </VITIS_LOOP_53_1>
+                            <SourceLocation>fir.cpp:60</SourceLocation>
+                        </VITIS_LOOP_56_1>
                     </SummaryOfLoopViolations>
                 </SummaryOfViolations>
             </PerformanceEstimates>
@@ -366,14 +366,14 @@
                 </Resources>
             </AreaEstimates>
             <BindNodes>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_53_1" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln53_fu_64_p2" SOURCE="fir.cpp:53" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln53" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_53_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln54_fu_70_p2" SOURCE="fir.cpp:54" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln54" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_56_1" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln56_fu_64_p2" SOURCE="fir.cpp:56" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln56" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_56_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln60_fu_70_p2" SOURCE="fir.cpp:60" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln60" VISIBLE="true"/>
             </BindNodes>
         </Module>
         <Module>
-            <Name>fir_Pipeline_VITIS_LOOP_59_2</Name>
+            <Name>fir_Pipeline_VITIS_LOOP_67_2</Name>
             <Loops>
-                <VITIS_LOOP_59_2/>
+                <VITIS_LOOP_67_2/>
             </Loops>
             <PerformanceEstimates>
                 <SummaryOfTimingAnalysis>
@@ -393,8 +393,8 @@
                     <PerformancePragma>-</PerformancePragma>
                 </SummaryOfOverallLatency>
                 <SummaryOfLoopLatency>
-                    <VITIS_LOOP_59_2>
-                        <Name>VITIS_LOOP_59_2</Name>
+                    <VITIS_LOOP_67_2>
+                        <Name>VITIS_LOOP_67_2</Name>
                         <Slack>7.30</Slack>
                         <TripCount>128</TripCount>
                         <isPerfectNested>0</isPerfectNested>
@@ -405,19 +405,19 @@
                         <PipelineType>yes</PipelineType>
                         <PerformancePragma>-</PerformancePragma>
                         <InstanceList/>
-                    </VITIS_LOOP_59_2>
+                    </VITIS_LOOP_67_2>
                 </SummaryOfLoopLatency>
                 <SummaryOfViolations>
                     <IssueType>-</IssueType>
                     <ViolationType>-</ViolationType>
-                    <SourceLocation>fir.cpp:32</SourceLocation>
+                    <SourceLocation>fir.cpp:34</SourceLocation>
                     <SummaryOfLoopViolations>
-                        <VITIS_LOOP_59_2>
-                            <Name>VITIS_LOOP_59_2</Name>
+                        <VITIS_LOOP_67_2>
+                            <Name>VITIS_LOOP_67_2</Name>
                             <IssueType>-</IssueType>
                             <ViolationType>-</ViolationType>
-                            <SourceLocation>fir.cpp:59</SourceLocation>
-                        </VITIS_LOOP_59_2>
+                            <SourceLocation>fir.cpp:67</SourceLocation>
+                        </VITIS_LOOP_67_2>
                     </SummaryOfLoopViolations>
                 </SummaryOfViolations>
             </PerformanceEstimates>
@@ -441,10 +441,10 @@
                 </Resources>
             </AreaEstimates>
             <BindNodes>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_59_2" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln59_fu_94_p2" SOURCE="fir.cpp:59" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln59" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_59_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln59_fu_100_p2" SOURCE="fir.cpp:59" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln59" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op mul" DSP="2" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_59_2" OPTYPE="mul" PRAGMA="" RTLNAME="mul_6s_32s_32_1_1_U2" SOURCE="fir.cpp:60" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln60" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_59_2" OPTYPE="add" PRAGMA="" RTLNAME="ans_1_fu_120_p2" SOURCE="fir.cpp:60" STORAGESUBTYPE="" URAM="0" VARIABLE="ans_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_67_2" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln67_fu_94_p2" SOURCE="fir.cpp:67" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln67" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_67_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln67_fu_100_p2" SOURCE="fir.cpp:67" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln67" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op mul" DSP="2" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_67_2" OPTYPE="mul" PRAGMA="" RTLNAME="mul_6s_32s_32_1_1_U2" SOURCE="fir.cpp:71" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln71" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_67_2" OPTYPE="add" PRAGMA="" RTLNAME="ans_1_fu_120_p2" SOURCE="fir.cpp:71" STORAGESUBTYPE="" URAM="0" VARIABLE="ans_1" VISIBLE="true"/>
                 <BindNode BINDID="17179869188" BINDTYPE="storage" BRAM="1" BUNDLEDNAME="" CE_REG="N" DISPNAME="bind_storage rom_1p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="rom_1p" PRAGMA="" RTLNAME="p_const_Z3firPii_h_U" SOURCE="" STORAGESIZE="32 128 1" STORAGESUBTYPE="" STORAGEUSAGE="rom_1p" URAM="0" VARIABLE="p_const_Z3firPii_h" VISIBLE="true"/>
             </BindNodes>
         </Module>
@@ -676,19 +676,9 @@
         <Pragma type="interface" status="valid" location="../../fir.cpp:27" parentFunction="fir" variable="x" isDirective="0" options="mode=s_axilite port=x"/>
         <Pragma type="interface" status="valid" location="../../fir.cpp:28" parentFunction="fir" variable="return" isDirective="0" options="mode=s_axilite port=return"/>
         <Pragma type="interface" status="valid" location="../../fir.cpp:29" parentFunction="fir" variable="return" isDirective="0" options="mode=ap_ctrl_chain port=return"/>
-        <Pragma type="unroll" status="invalid" location="../../fir.cpp:52" parentFunction="fir" variable="" isDirective="0" options="factor=4">
-            <Msg msg_id="207-7042" msg_severity="WARNING" msg_body="unroll pragma is ignored, because it can be only applied inside loop body"/>
-            <Msg msg_id="" msg_severity="ERROR" msg_body="Not implemented"/>
-        </Pragma>
-        <Pragma type="unroll" status="invalid" location="../../fir.cpp:58" parentFunction="fir" variable="" isDirective="0" options="factor=4">
-            <Msg msg_id="207-7042" msg_severity="WARNING" msg_body="unroll pragma is ignored, because it can be only applied inside loop body"/>
-            <Msg msg_id="" msg_severity="ERROR" msg_body="Not implemented"/>
-        </Pragma>
-        <Pragma type="loop_tripcount" status="implemented" location="fir.cpp:32" parentFunction="fir_pipeline_vitis_loop_59_2" variable="" isDirective="0" options="max=128 min=128 avg=128"/>
-        <Pragma type="loop_tripcount" status="implemented" location="fir.cpp:53" parentFunction="fir_pipeline_vitis_loop_53_1" variable="" isDirective="0" options="max=127 min=127 avg=127"/>
+        <Pragma type="pipeline" status="valid" location="../../fir.cpp:58" parentFunction="fir" variable="" isDirective="0" options="ii=1"/>
+        <Pragma type="pipeline" status="valid" location="../../fir.cpp:69" parentFunction="fir" variable="" isDirective="0" options="ii=1"/>
+        <Pragma type="loop_tripcount" status="implemented" location="fir.cpp:34" parentFunction="fir_pipeline_vitis_loop_67_2" variable="" isDirective="0" options="max=128 min=128 avg=128"/>
+        <Pragma type="loop_tripcount" status="implemented" location="fir.cpp:56" parentFunction="fir_pipeline_vitis_loop_56_1" variable="" isDirective="0" options="max=127 min=127 avg=127"/>
     </PragmaReport>
-    <AutoPragmaReport>
-        <AutoPragma type="pipeline" parentFunction="fir" options="" pragmaLocId="fir.cpp:53:0" pragmaLocOpt="fir/VITIS_LOOP_53_1" srcTcl="config_compile -pipeline_loops 64" srcIni="syn.compile.pipeline_loops=64" srcPragmaType="" srcPragmaLoc="syn.compile.pipeline_loops=64" srcPragmaSource="config" srcPragmaSourceDesc="syn.compile.pipeline_loops=64" srcIsDirective="0" srcIsSlxDirective="0" srcIsCsimDirective="0" directiveIni="syn.directive.pipeline=fir/VITIS_LOOP_53_1 " loopName="VITIS_LOOP_53_1" loopLoc="fir.cpp:53:22"/>
-        <AutoPragma type="pipeline" parentFunction="fir" options="" pragmaLocId="fir.cpp:59:0" pragmaLocOpt="fir/VITIS_LOOP_59_2" srcTcl="config_compile -pipeline_loops 64" srcIni="syn.compile.pipeline_loops=64" srcPragmaType="" srcPragmaLoc="syn.compile.pipeline_loops=64" srcPragmaSource="config" srcPragmaSourceDesc="syn.compile.pipeline_loops=64" srcIsDirective="0" srcIsSlxDirective="0" srcIsCsimDirective="0" directiveIni="syn.directive.pipeline=fir/VITIS_LOOP_59_2 " loopName="VITIS_LOOP_59_2" loopLoc="fir.cpp:59:22"/>
-    </AutoPragmaReport>
 </profile>

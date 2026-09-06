@@ -1,9 +1,9 @@
 
 
 ================================================================
-== Vitis HLS Report for 'fir_Pipeline_VITIS_LOOP_53_1'
+== Vitis HLS Report for 'fir_Pipeline_VITIS_LOOP_56_1'
 ================================================================
-* Date:           Sun Sep  6 13:05:11 2026
+* Date:           Sun Sep  6 13:21:45 2026
 
 * Version:        2026.1 (Build 6493734 on Jun 16 2026)
 * Project:        baseline
@@ -41,7 +41,7 @@
         |                   |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
         |     Loop Name     |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
         +-------------------+---------+---------+----------+-----------+-----------+------+----------+
-        |- VITIS_LOOP_53_1  |      127|      127|         2|          1|        N/A|   127|       yes|
+        |- VITIS_LOOP_56_1  |      127|      127|         2|          1|          1|   127|       yes|
         +-------------------+---------+---------+----------+-----------+-----------+------+----------+
 
 
@@ -85,8 +85,8 @@
     +--------------------+----------+----+---+----+------------+------------+
     |    Variable Name   | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
     +--------------------+----------+----+---+----+------------+------------+
-    |add_ln54_fu_70_p2   |         +|   0|  0|  14|           7|           2|
-    |icmp_ln53_fu_64_p2  |      icmp|   0|  0|  14|           7|           1|
+    |add_ln60_fu_70_p2   |         +|   0|  0|  14|           7|           2|
+    |icmp_ln56_fu_64_p2  |      icmp|   0|  0|  14|           7|           1|
     |ap_enable_pp0       |       xor|   0|  0|   2|           1|           2|
     +--------------------+----------+----+---+----+------------+------------+
     |Total               |          |   0|  0|  30|          15|           5|
@@ -126,12 +126,12 @@
 +--------------------+-----+-----+------------+------------------------------+--------------+
 |      RTL Ports     | Dir | Bits|  Protocol  |         Source Object        |    C Type    |
 +--------------------+-----+-----+------------+------------------------------+--------------+
-|ap_clk              |   in|    1|  ap_ctrl_hs|  fir_Pipeline_VITIS_LOOP_53_1|  return value|
-|ap_rst              |   in|    1|  ap_ctrl_hs|  fir_Pipeline_VITIS_LOOP_53_1|  return value|
-|ap_start            |   in|    1|  ap_ctrl_hs|  fir_Pipeline_VITIS_LOOP_53_1|  return value|
-|ap_done             |  out|    1|  ap_ctrl_hs|  fir_Pipeline_VITIS_LOOP_53_1|  return value|
-|ap_idle             |  out|    1|  ap_ctrl_hs|  fir_Pipeline_VITIS_LOOP_53_1|  return value|
-|ap_ready            |  out|    1|  ap_ctrl_hs|  fir_Pipeline_VITIS_LOOP_53_1|  return value|
+|ap_clk              |   in|    1|  ap_ctrl_hs|  fir_Pipeline_VITIS_LOOP_56_1|  return value|
+|ap_rst              |   in|    1|  ap_ctrl_hs|  fir_Pipeline_VITIS_LOOP_56_1|  return value|
+|ap_start            |   in|    1|  ap_ctrl_hs|  fir_Pipeline_VITIS_LOOP_56_1|  return value|
+|ap_done             |  out|    1|  ap_ctrl_hs|  fir_Pipeline_VITIS_LOOP_56_1|  return value|
+|ap_idle             |  out|    1|  ap_ctrl_hs|  fir_Pipeline_VITIS_LOOP_56_1|  return value|
+|ap_ready            |  out|    1|  ap_ctrl_hs|  fir_Pipeline_VITIS_LOOP_56_1|  return value|
 |shift_reg_address0  |  out|    7|   ap_memory|                     shift_reg|         array|
 |shift_reg_ce0       |  out|    1|   ap_memory|                     shift_reg|         array|
 |shift_reg_we0       |  out|    1|   ap_memory|                     shift_reg|         array|

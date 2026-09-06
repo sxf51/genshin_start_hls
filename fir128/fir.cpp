@@ -27,6 +27,8 @@ void fir (
     #pragma HLS interface mode=s_axilite port=x
     #pragma HLS interface mode=s_axilite port=return
     #pragma HLS interface mode=ap_ctrl_chain port=return
+
+    //#pragma HLS array_partition variable=shift_reg cyclic factor =4
 	
 	static data_t shift_reg[N];
     acc_t ans = 0;
@@ -49,14 +51,23 @@ void fir (
     //     ans += shift_reg[i] * h[i];
     // }
 
-#pragma HLS unroll factor=4
+
+
     for (int i = N - 1; i > 0; i--) {
+        // #pragma HLS unroll factor=4
+        #pragma HLS pipeline II=1
+        
         shift_reg[i] = shift_reg[i - 1];
     }
     shift_reg[0] = x;
 
-#pragma HLS unroll factor=4
+
+
+
     for (int i = 0; i < N; i++) {
+        // #pragma HLS unroll factor=4
+        #pragma HLS pipeline II=1
+        
         ans += shift_reg[i] * h[i];
     }
     

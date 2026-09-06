@@ -3,7 +3,7 @@
     "id": "8b261e96-7dcd-42f1-be4a-26c123fe90c8",
     "title": "why failed nonzero return value?",
     "lastInteraction": "2026-09-06T01:08:42.806Z",
-    "isActive": true,
+    "isActive": false,
     "requests": [
       {
         "id": "3074d5e6-6e54-49a6-8603-cc2e52ce3416",
@@ -13,6 +13,33 @@
         },
         "response": {
           "id": "a34781d2-de83-4118-908e-f9a2d3256539",
+          "isComplete": true,
+          "isCanceled": false,
+          "isError": true,
+          "content": [
+            {
+              "kind": "error"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "b6d22125-6bb4-49eb-84fb-88157a70d33b",
+    "title": "@Coder Help to fix this error: \"Invalid suffix 'pragma' on integer constant\" #editorContext",
+    "lastInteraction": "2026-09-06T03:16:20.895Z",
+    "isActive": true,
+    "pinnedAgentId": "Coder",
+    "requests": [
+      {
+        "id": "7d8e49aa-527a-429d-9dd9-976b14a01bf0",
+        "agentId": "Coder",
+        "request": {
+          "text": "@Coder Help to fix this error: \"Invalid suffix 'pragma' on integer constant\" #editorContext"
+        },
+        "response": {
+          "id": "b909c745-ae44-45a7-895d-63d07534c6b7",
           "isComplete": true,
           "isCanceled": false,
           "isError": true,

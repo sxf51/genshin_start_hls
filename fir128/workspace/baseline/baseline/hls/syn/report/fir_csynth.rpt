@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'fir'
 ================================================================
-* Date:           Sun Sep  6 13:05:11 2026
+* Date:           Sun Sep  6 13:21:45 2026
 
 * Version:        2026.1 (Build 6493734 on Jun 16 2026)
 * Project:        baseline
@@ -38,8 +38,8 @@
         |                                        |                              |  Latency (cycles) |  Latency (absolute) |  Interval |      Pipeline     |
         |                Instance                |            Module            |   min   |   max   |    min   |    max   | min | max |        Type       |
         +----------------------------------------+------------------------------+---------+---------+----------+----------+-----+-----+-------------------+
-        |grp_fir_Pipeline_VITIS_LOOP_53_1_fu_70  |fir_Pipeline_VITIS_LOOP_53_1  |      129|      129|  1.290 us|  1.290 us|    0|    0|  loop pipeline stp|
-        |grp_fir_Pipeline_VITIS_LOOP_59_2_fu_76  |fir_Pipeline_VITIS_LOOP_59_2  |      130|      130|  1.300 us|  1.300 us|    0|    0|  loop pipeline stp|
+        |grp_fir_Pipeline_VITIS_LOOP_56_1_fu_70  |fir_Pipeline_VITIS_LOOP_56_1  |      129|      129|  1.290 us|  1.290 us|    0|    0|  loop pipeline stp|
+        |grp_fir_Pipeline_VITIS_LOOP_67_2_fu_76  |fir_Pipeline_VITIS_LOOP_67_2  |      130|      130|  1.300 us|  1.300 us|    0|    0|  loop pipeline stp|
         +----------------------------------------+------------------------------+---------+---------+----------+----------+-----+-----+-------------------+
 
         * Loop: 
@@ -75,8 +75,8 @@
     |                Instance                |            Module            | BRAM_18K| DSP|  FF | LUT | URAM|
     +----------------------------------------+------------------------------+---------+----+-----+-----+-----+
     |control_s_axi_U                         |control_s_axi                 |        0|   0|  112|  168|    0|
-    |grp_fir_Pipeline_VITIS_LOOP_53_1_fu_70  |fir_Pipeline_VITIS_LOOP_53_1  |        0|   0|   17|   66|    0|
-    |grp_fir_Pipeline_VITIS_LOOP_59_2_fu_76  |fir_Pipeline_VITIS_LOOP_59_2  |        1|   2|   43|  137|    0|
+    |grp_fir_Pipeline_VITIS_LOOP_56_1_fu_70  |fir_Pipeline_VITIS_LOOP_56_1  |        0|   0|   17|   66|    0|
+    |grp_fir_Pipeline_VITIS_LOOP_67_2_fu_76  |fir_Pipeline_VITIS_LOOP_67_2  |        1|   2|   43|  137|    0|
     +----------------------------------------+------------------------------+---------+----+-----+-----+-----+
     |Total                                   |                              |        1|   2|  172|  371|    0|
     +----------------------------------------+------------------------------+---------+----+-----+-----+-----+
@@ -131,8 +131,8 @@
     |ap_rst_n_inv                                         |   1|   0|    1|          0|
     |ap_rst_reg_1                                         |   1|   0|    1|          0|
     |ap_rst_reg_2                                         |   1|   0|    1|          0|
-    |grp_fir_Pipeline_VITIS_LOOP_53_1_fu_70_ap_start_reg  |   1|   0|    1|          0|
-    |grp_fir_Pipeline_VITIS_LOOP_59_2_fu_76_ap_start_reg  |   1|   0|    1|          0|
+    |grp_fir_Pipeline_VITIS_LOOP_56_1_fu_70_ap_start_reg  |   1|   0|    1|          0|
+    |grp_fir_Pipeline_VITIS_LOOP_67_2_fu_76_ap_start_reg  |   1|   0|    1|          0|
     |y_preg                                               |  32|   0|   32|          0|
     +-----------------------------------------------------+----+----+-----+-----------+
     |Total                                                |  44|   0|   44|          0|

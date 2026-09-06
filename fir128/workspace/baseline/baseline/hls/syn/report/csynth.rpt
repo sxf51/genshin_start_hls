@@ -4,7 +4,7 @@
 == Synthesis Summary Report of 'fir'
 ================================================================
 + General Information: 
-    * Date:           Sun Sep  6 13:05:11 2026
+    * Date:           Sun Sep  6 13:21:45 2026
     * Version:        2026.1 (Build 6493734 on Jun 16 2026)
     * Project:        baseline
     * Solution:       hls (Vitis Kernel Flow Target)
@@ -18,10 +18,10 @@
 |             & Loops             | Type | Violation Type|  Latency | Interval| Count| Pipelined| (cycles)|    (ns)   | Slack|  BRAM   |   DSP   |     FF    |    LUT    | URAM|
 +---------------------------------+------+---------------+----------+---------+------+----------+---------+-----------+------+---------+---------+-----------+-----------+-----+
 |+ fir                            |     -|              -|         -|      265|     -|        no|      264|  2.640e+03|  1.20|   3 (1%)|  2 (~0%)|  216 (~0%)|  485 (~0%)|    -|
-| + fir_Pipeline_VITIS_LOOP_53_1  |     -|              -|         -|      129|     -|       yes|      129|  1.290e+03|  4.83|        -|        -|   17 (~0%)|   66 (~0%)|    -|
-|  o VITIS_LOOP_53_1              |     -|              -|         2|        1|   127|       yes|      127|  1.270e+03|  7.30|        -|        -|          -|          -|    -|
-| + fir_Pipeline_VITIS_LOOP_59_2  |     -|              -|         -|      130|     -|       yes|      130|  1.300e+03|  1.20|  1 (~0%)|  2 (~0%)|   43 (~0%)|  137 (~0%)|    -|
-|  o VITIS_LOOP_59_2              |     -|              -|         2|        1|   128|       yes|      128|  1.280e+03|  7.30|        -|        -|          -|          -|    -|
+| + fir_Pipeline_VITIS_LOOP_56_1  |     -|              -|         -|      129|     -|       yes|      129|  1.290e+03|  4.83|        -|        -|   17 (~0%)|   66 (~0%)|    -|
+|  o VITIS_LOOP_56_1              |     -|              -|         2|        1|   127|       yes|      127|  1.270e+03|  7.30|        -|        -|          -|          -|    -|
+| + fir_Pipeline_VITIS_LOOP_67_2  |     -|              -|         -|      130|     -|       yes|      130|  1.300e+03|  1.20|  1 (~0%)|  2 (~0%)|   43 (~0%)|  137 (~0%)|    -|
+|  o VITIS_LOOP_67_2              |     -|              -|         2|        1|   128|       yes|      128|  1.280e+03|  7.30|        -|        -|          -|          -|    -|
 +---------------------------------+------+---------------+----------+---------+------+----------+---------+-----------+------+---------+---------+-----------+-----------+-----+
     Name Prefix: '+' for module, 'o' for loop, '*' for dataflow
 
@@ -86,13 +86,13 @@
 | Name                            | DSP | Pragma | Variable  | Op    | Impl   | Latency |
 +---------------------------------+-----+--------+-----------+-------+--------+---------+
 | + fir                           | 2   |        |           |       |        |         |
-|  + fir_Pipeline_VITIS_LOOP_53_1 | 0   |        |           |       |        |         |
-|    icmp_ln53_fu_64_p2           |     |        | icmp_ln53 | seteq | auto   | 0       |
-|    add_ln54_fu_70_p2            |     |        | add_ln54  | add   | fabric | 0       |
-|  + fir_Pipeline_VITIS_LOOP_59_2 | 2   |        |           |       |        |         |
-|    icmp_ln59_fu_94_p2           |     |        | icmp_ln59 | seteq | auto   | 0       |
-|    add_ln59_fu_100_p2           |     |        | add_ln59  | add   | fabric | 0       |
-|    mul_6s_32s_32_1_1_U2         | 2   |        | mul_ln60  | mul   | auto   | 0       |
+|  + fir_Pipeline_VITIS_LOOP_56_1 | 0   |        |           |       |        |         |
+|    icmp_ln56_fu_64_p2           |     |        | icmp_ln56 | seteq | auto   | 0       |
+|    add_ln60_fu_70_p2            |     |        | add_ln60  | add   | fabric | 0       |
+|  + fir_Pipeline_VITIS_LOOP_67_2 | 2   |        |           |       |        |         |
+|    icmp_ln67_fu_94_p2           |     |        | icmp_ln67 | seteq | auto   | 0       |
+|    add_ln67_fu_100_p2           |     |        | add_ln67  | add   | fabric | 0       |
+|    mul_6s_32s_32_1_1_U2         | 2   |        | mul_ln71  | mul   | auto   | 0       |
 |    ans_1_fu_120_p2              |     |        | ans_1     | add   | fabric | 0       |
 +---------------------------------+-----+--------+-----------+-------+--------+---------+
 
@@ -107,7 +107,7 @@
 | + fir                           |           |           | 3    | 0    |        |        |                    |      |         |                  |
 |   control_s_axi_U               | interface | s_axilite |      |      |        |        |                    |      |         |                  |
 |   shift_reg_U                   | ram_2p    |           | 2    |      | N      |        | shift_reg          | auto | 1       | 32, 128, 1       |
-|  + fir_Pipeline_VITIS_LOOP_59_2 |           |           | 1    | 0    |        |        |                    |      |         |                  |
+|  + fir_Pipeline_VITIS_LOOP_67_2 |           |           | 1    | 0    |        |        |                    |      |         |                  |
 |    p_const_Z3firPii_h_U         | rom_1p    |           | 1    |      | N      |        | p_const_Z3firPii_h | auto | 1       | 32, 128, 1       |
 +---------------------------------+-----------+-----------+------+------+--------+--------+--------------------+------+---------+------------------+
 
@@ -115,24 +115,6 @@
 ================================================================
 == Pragma Report
 ================================================================
-* Ignored Pragmas
-+--------+----------+---------------------------+---------------------------------------------------------------------------+
-| Type   | Options  | Location                  | Messages                                                                  |
-+--------+----------+---------------------------+---------------------------------------------------------------------------+
-| UNROLL | factor=4 | in fir (../../fir.cpp:52) | unroll pragma is ignored, because it can be only applied inside loop body |
-|        |          |                           | Not implemented                                                           |
-| UNROLL | factor=4 | in fir (../../fir.cpp:58) | unroll pragma is ignored, because it can be only applied inside loop body |
-|        |          |                           | Not implemented                                                           |
-+--------+----------+---------------------------+---------------------------------------------------------------------------+
-
-* Inferred Pragmas
-+----------+---------+----------------------------------------------------------+-------------------------------+
-| Type     | Options | Location                                                 | Inferred From                 |
-+----------+---------+----------------------------------------------------------+-------------------------------+
-| PIPELINE |         | loop VITIS_LOOP_53_1 (fir.cpp:53:22) in fir (fir.cpp:53) | syn.compile.pipeline_loops=64 |
-| PIPELINE |         | loop VITIS_LOOP_59_2 (fir.cpp:59:22) in fir (fir.cpp:59) | syn.compile.pipeline_loops=64 |
-+----------+---------+----------------------------------------------------------+-------------------------------+
-
 * Valid Pragma Syntax
 +-----------+--------------------------------+---------------------------+
 | Type      | Options                        | Location                  |
@@ -141,6 +123,8 @@
 | INTERFACE | mode=s_axilite port=x          | in fir (../../fir.cpp:27) |
 | INTERFACE | mode=s_axilite port=return     | in fir (../../fir.cpp:28) |
 | INTERFACE | mode=ap_ctrl_chain port=return | in fir (../../fir.cpp:29) |
+| PIPELINE  | ii=1                           | in fir (../../fir.cpp:58) |
+| PIPELINE  | ii=1                           | in fir (../../fir.cpp:69) |
 +-----------+--------------------------------+---------------------------+
 
 
