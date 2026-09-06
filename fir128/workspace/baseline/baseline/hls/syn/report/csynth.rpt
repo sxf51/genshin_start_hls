@@ -4,7 +4,7 @@
 == Synthesis Summary Report of 'fir'
 ================================================================
 + General Information: 
-    * Date:           Sun Sep  6 11:54:36 2026
+    * Date:           Sun Sep  6 11:57:32 2026
     * Version:        2026.1 (Build 6493734 on Jun 16 2026)
     * Project:        baseline
     * Solution:       hls (Vitis Kernel Flow Target)
@@ -123,8 +123,8 @@
 | INTERFACE | mode=s_axilite port=x          | in fir (../../fir.cpp:27) |
 | INTERFACE | mode=s_axilite port=return     | in fir (../../fir.cpp:28) |
 | INTERFACE | mode=ap_ctrl_chain port=return | in fir (../../fir.cpp:29) |
-| PIPELINE  | ii=2                           | in fir (../../fir.cpp:36) |
-| PIPELINE  | ii=2                           | in fir (../../fir.cpp:42) |
+| PIPELINE  | ii=3                           | in fir (../../fir.cpp:36) |
+| PIPELINE  | ii=3                           | in fir (../../fir.cpp:42) |
 +-----------+--------------------------------+---------------------------+
 
 
