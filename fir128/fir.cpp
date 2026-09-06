@@ -55,7 +55,7 @@ void fir (
 
     for (int i = N - 1; i > 0; i--) {
         // #pragma HLS unroll factor=4
-        #pragma HLS pipeline II=3
+        // #pragma HLS pipeline II=3
         
         shift_reg[i] = shift_reg[i - 1];
     }
@@ -66,7 +66,7 @@ void fir (
 
     for (int i = 0; i < N; i++) {
         // #pragma HLS unroll factor=4
-        #pragma HLS pipeline II=3
+        // #pragma HLS pipeline II=3
         ans += shift_reg[i] * h[i];
     }
     

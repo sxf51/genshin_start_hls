@@ -21,14 +21,14 @@
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>256</Best-caseLatency>
-<Average-caseLatency>256</Average-caseLatency>
-<Worst-caseLatency>256</Worst-caseLatency>
-<Best-caseRealTimeLatency>2.560 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>2.560 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>2.560 us</Worst-caseRealTimeLatency>
-<Interval-min>255</Interval-min>
-<Interval-max>255</Interval-max>
+<Best-caseLatency>129</Best-caseLatency>
+<Average-caseLatency>129</Average-caseLatency>
+<Worst-caseLatency>129</Worst-caseLatency>
+<Best-caseRealTimeLatency>1.290 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>1.290 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>1.290 us</Worst-caseRealTimeLatency>
+<Interval-min>128</Interval-min>
+<Interval-max>128</Interval-max>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
@@ -36,9 +36,9 @@
 <Slack>7.30</Slack>
 <TripCount>127</TripCount>
 <isPerfectNested>0</isPerfectNested>
-<Latency>254</Latency>
-<AbsoluteTimeLatency>2540</AbsoluteTimeLatency>
-<PipelineII>2</PipelineII>
+<Latency>127</Latency>
+<AbsoluteTimeLatency>1270</AbsoluteTimeLatency>
+<PipelineII>1</PipelineII>
 <PipelineDepth>2</PipelineDepth>
 <PerformancePragma>-</PerformancePragma>
 <InstanceList>
@@ -62,8 +62,8 @@
 
 <AreaEstimates>
 <Resources>
-<FF>18</FF>
-<LUT>83</LUT>
+<FF>17</FF>
+<LUT>66</LUT>
 <BRAM_18K>0</BRAM_18K>
 <DSP>0</DSP>
 <URAM>0</URAM>
@@ -189,7 +189,29 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>shift_reg_q0</name>
+<name>shift_reg_address1</name>
+<Object>shift_reg</Object>
+<Type>array</Type>
+<Scope>global</Scope>
+<IOProtocol>ap_memory</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>7</Bits>
+<Attribute>address</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>shift_reg_ce1</name>
+<Object>shift_reg</Object>
+<Type>array</Type>
+<Scope>global</Scope>
+<IOProtocol>ap_memory</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>1</Bits>
+<Attribute>control</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>shift_reg_q1</name>
 <Object>shift_reg</Object>
 <Type>array</Type>
 <Scope>global</Scope>
