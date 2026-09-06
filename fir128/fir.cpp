@@ -28,9 +28,11 @@ void fir (
     #pragma HLS interface mode=s_axilite port=return
     #pragma HLS interface mode=ap_ctrl_chain port=return
 
-    //#pragma HLS array_partition variable=shift_reg cyclic factor =4
+    
 	
 	static data_t shift_reg[N];
+    #pragma HLS array_partition variable=shift_reg cyclic factor =4
+    
     acc_t ans = 0;
 
     // // shift + MAC

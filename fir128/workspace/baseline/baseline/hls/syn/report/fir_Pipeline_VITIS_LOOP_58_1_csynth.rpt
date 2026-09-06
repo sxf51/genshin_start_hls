@@ -1,0 +1,171 @@
+
+
+================================================================
+== Vitis HLS Report for 'fir_Pipeline_VITIS_LOOP_58_1'
+================================================================
+* Date:           Sun Sep  6 14:26:33 2026
+
+* Version:        2026.1 (Build 6493734 on Jun 16 2026)
+* Project:        baseline
+* Solution:       hls (Vitis Kernel Flow Target)
+* Product family: zynquplus
+* Target device:  xck26-sfvc784-2LV-c
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  2.474 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+-------------------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval |      Pipeline     |
+    |   min   |   max   |    min   |    max   | min | max |        Type       |
+    +---------+---------+----------+----------+-----+-----+-------------------+
+    |       34|       34|  0.340 us|  0.340 us|    0|    0|  loop pipeline stp|
+    +---------+---------+----------+----------+-----+-----+-------------------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |                   |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |     Loop Name     |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +-------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- VITIS_LOOP_58_1  |       32|       32|         2|          1|        N/A|    31|       yes|
+        +-------------------+---------+---------+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+------+--------+--------+-----+
+|       Name      | BRAM_18K|  DSP |   FF   |   LUT  | URAM|
++-----------------+---------+------+--------+--------+-----+
+|DSP              |        -|     -|       -|       -|    -|
+|Expression       |        -|     -|       0|      72|    -|
+|FIFO             |        -|     -|       -|       -|    -|
+|Instance         |        -|     -|       -|       -|    -|
+|Memory           |        -|     -|       -|       -|    -|
+|Multiplexer      |        -|     -|       0|      27|    -|
+|Register         |        -|     -|      32|       -|    -|
++-----------------+---------+------+--------+--------+-----+
+|Total            |        0|     0|      32|      99|    0|
++-----------------+---------+------+--------+--------+-----+
+|Available        |      288|  1248|  234240|  117120|   64|
++-----------------+---------+------+--------+--------+-----+
+|Utilization (%)  |        0|     0|      ~0|      ~0|    0|
++-----------------+---------+------+--------+--------+-----+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +----------------------+----------+----+---+----+------------+------------+
+    |     Variable Name    | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +----------------------+----------+----+---+----+------------+------------+
+    |add_ln62_1_fu_167_p2  |         +|   0|  0|  14|           7|           3|
+    |add_ln62_2_fu_188_p2  |         +|   0|  0|  14|           7|           3|
+    |add_ln62_3_fu_215_p2  |         +|   0|  0|  14|           7|           4|
+    |add_ln62_fu_146_p2    |         +|   0|  0|  14|           7|           2|
+    |icmp_ln58_fu_209_p2   |      icmp|   0|  0|  14|           7|           1|
+    |ap_enable_pp0         |       xor|   0|  0|   2|           1|           2|
+    +----------------------+----------+----+---+----+------------+------------+
+    |Total                 |          |   0|  0|  72|          36|          15|
+    +----------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +----------------------+----+-----------+-----+-----------+
+    |         Name         | LUT| Input Size| Bits| Total Bits|
+    +----------------------+----+-----------+-----+-----------+
+    |ap_done_int           |   9|          2|    1|          2|
+    |ap_sig_allocacmp_i_2  |   9|          2|    7|         14|
+    |i_fu_44               |   9|          2|    7|         14|
+    +----------------------+----+-----------+-----+-----------+
+    |Total                 |  27|          6|   15|         30|
+    +----------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +--------------------------------------+---+----+-----+-----------+
+    |                 Name                 | FF| LUT| Bits| Const Bits|
+    +--------------------------------------+---+----+-----+-----------+
+    |ap_CS_fsm                             |  1|   0|    1|          0|
+    |ap_done_reg                           |  1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter1               |  1|   0|    1|          0|
+    |ap_loop_exit_ready_pp0_iter1_reg      |  1|   0|    1|          0|
+    |fir_int_int_shift_reg_1_addr_reg_263  |  5|   0|    5|          0|
+    |fir_int_int_shift_reg_2_addr_reg_257  |  5|   0|    5|          0|
+    |fir_int_int_shift_reg_addr_reg_269    |  5|   0|    5|          0|
+    |i_fu_44                               |  7|   0|    7|          0|
+    |icmp_ln58_reg_275                     |  1|   0|    1|          0|
+    |lshr_ln_reg_252                       |  5|   0|    5|          0|
+    +--------------------------------------+---+----+-----+-----------+
+    |Total                                 | 32|   0|   32|          0|
+    +--------------------------------------+---+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++----------------------------------+-----+-----+------------+------------------------------+--------------+
+|             RTL Ports            | Dir | Bits|  Protocol  |         Source Object        |    C Type    |
++----------------------------------+-----+-----+------------+------------------------------+--------------+
+|ap_clk                            |   in|    1|  ap_ctrl_hs|  fir_Pipeline_VITIS_LOOP_58_1|  return value|
+|ap_rst                            |   in|    1|  ap_ctrl_hs|  fir_Pipeline_VITIS_LOOP_58_1|  return value|
+|ap_start                          |   in|    1|  ap_ctrl_hs|  fir_Pipeline_VITIS_LOOP_58_1|  return value|
+|ap_done                           |  out|    1|  ap_ctrl_hs|  fir_Pipeline_VITIS_LOOP_58_1|  return value|
+|ap_idle                           |  out|    1|  ap_ctrl_hs|  fir_Pipeline_VITIS_LOOP_58_1|  return value|
+|ap_ready                          |  out|    1|  ap_ctrl_hs|  fir_Pipeline_VITIS_LOOP_58_1|  return value|
+|fir_int_int_shift_reg_2_address0  |  out|    5|   ap_memory|       fir_int_int_shift_reg_2|         array|
+|fir_int_int_shift_reg_2_ce0       |  out|    1|   ap_memory|       fir_int_int_shift_reg_2|         array|
+|fir_int_int_shift_reg_2_we0       |  out|    1|   ap_memory|       fir_int_int_shift_reg_2|         array|
+|fir_int_int_shift_reg_2_d0        |  out|   32|   ap_memory|       fir_int_int_shift_reg_2|         array|
+|fir_int_int_shift_reg_2_address1  |  out|    5|   ap_memory|       fir_int_int_shift_reg_2|         array|
+|fir_int_int_shift_reg_2_ce1       |  out|    1|   ap_memory|       fir_int_int_shift_reg_2|         array|
+|fir_int_int_shift_reg_2_q1        |   in|   32|   ap_memory|       fir_int_int_shift_reg_2|         array|
+|fir_int_int_shift_reg_1_address0  |  out|    5|   ap_memory|       fir_int_int_shift_reg_1|         array|
+|fir_int_int_shift_reg_1_ce0       |  out|    1|   ap_memory|       fir_int_int_shift_reg_1|         array|
+|fir_int_int_shift_reg_1_we0       |  out|    1|   ap_memory|       fir_int_int_shift_reg_1|         array|
+|fir_int_int_shift_reg_1_d0        |  out|   32|   ap_memory|       fir_int_int_shift_reg_1|         array|
+|fir_int_int_shift_reg_1_address1  |  out|    5|   ap_memory|       fir_int_int_shift_reg_1|         array|
+|fir_int_int_shift_reg_1_ce1       |  out|    1|   ap_memory|       fir_int_int_shift_reg_1|         array|
+|fir_int_int_shift_reg_1_q1        |   in|   32|   ap_memory|       fir_int_int_shift_reg_1|         array|
+|fir_int_int_shift_reg_address0    |  out|    5|   ap_memory|         fir_int_int_shift_reg|         array|
+|fir_int_int_shift_reg_ce0         |  out|    1|   ap_memory|         fir_int_int_shift_reg|         array|
+|fir_int_int_shift_reg_we0         |  out|    1|   ap_memory|         fir_int_int_shift_reg|         array|
+|fir_int_int_shift_reg_d0          |  out|   32|   ap_memory|         fir_int_int_shift_reg|         array|
+|fir_int_int_shift_reg_address1    |  out|    5|   ap_memory|         fir_int_int_shift_reg|         array|
+|fir_int_int_shift_reg_ce1         |  out|    1|   ap_memory|         fir_int_int_shift_reg|         array|
+|fir_int_int_shift_reg_q1          |   in|   32|   ap_memory|         fir_int_int_shift_reg|         array|
+|fir_int_int_shift_reg_3_address0  |  out|    5|   ap_memory|       fir_int_int_shift_reg_3|         array|
+|fir_int_int_shift_reg_3_ce0       |  out|    1|   ap_memory|       fir_int_int_shift_reg_3|         array|
+|fir_int_int_shift_reg_3_we0       |  out|    1|   ap_memory|       fir_int_int_shift_reg_3|         array|
+|fir_int_int_shift_reg_3_d0        |  out|   32|   ap_memory|       fir_int_int_shift_reg_3|         array|
+|fir_int_int_shift_reg_3_address1  |  out|    5|   ap_memory|       fir_int_int_shift_reg_3|         array|
+|fir_int_int_shift_reg_3_ce1       |  out|    1|   ap_memory|       fir_int_int_shift_reg_3|         array|
+|fir_int_int_shift_reg_3_q1        |   in|   32|   ap_memory|       fir_int_int_shift_reg_3|         array|
++----------------------------------+-----+-----+------------+------------------------------+--------------+
+
