@@ -32,7 +32,7 @@ void fir (
     acc_t ans = 0;
 
     // shift + MAC
-    #pragma HLS pipeline off
+    #pragma HLS pipeline
     for (int i = N - 1; i > 0; i--) {
         shift_reg[i] = shift_reg[i - 1];
         ans += shift_reg[i] * h[i];
