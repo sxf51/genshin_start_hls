@@ -11,9 +11,9 @@
 
 const int N=128;
 
-typedef ap_int<64>	coef_t;
-typedef ap_int<64>	data_t;
-typedef ap_int<64>	acc_t;
+typedef ap_int<17>	coef_t;
+typedef ap_int<17>	data_t;
+typedef ap_int<17>	acc_t;
 // typedef int	coef_t;
 // typedef int	data_t;
 // typedef int	acc_t;

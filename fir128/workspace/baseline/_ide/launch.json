@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "baseline",
+      "type": "gdb",
+      "request": "launch",
+      "target": "${workspaceFolder}/fir128/workspace/baseline/baseline/hls/csim/build/csim.exe",
+      "cwd": "${workspaceFolder}/fir128/workspace/baseline/baseline/hls/csim/build",
+      "gdbpath": "${env:XILINX_VITIS}/lnx64/tools/gdb/gdb-15.2/bin/gdb",
+      "debugger_args": [
+        "--init-command=${env:XILINX_VITIS}/lnx64/tools/gdb/gdb-15.2/bin/gdbinit"
+      ],
+      "valuesFormatting": "prettyPrinters",
+      "env": {
+        "LD_LIBRARY_PATH": "/home/lipuze/amdfpga/2026.1/Vitis/lnx64/tools/fpo_v7_1:/home/lipuze/amdfpga/2026.1/Vitis/lnx64/tools/fft_v9_1:/home/lipuze/amdfpga/2026.1/Vitis/lnx64/tools/fir_v7_0:/home/lipuze/amdfpga/2026.1/Vitis/lnx64/tools/dds_v6_0:/home/lipuze/amdfpga/2026.1/Vitis/tps/lnx64/gcc-8.3.0/lib:/home/lipuze/amdfpga/2026.1/Vitis/lib/lnx64.o/Ubuntu:/usr/lib/x86_64-linux-gnu:${env:LD_LIBRARY_PATH}"
+      }
+    }
+  ]
+}
