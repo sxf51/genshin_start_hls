@@ -33,13 +33,13 @@ void fir (
 
     // shift + MAC
     for (int i = N - 1; i > 0; i--) {
-#pragma HLS pipeline II=3
+#pragma HLS pipeline II=4
         shift_reg[i] = shift_reg[i - 1];
     }
     shift_reg[0] = x;
 
     for (int i = 0; i < N; i++) {
-#pragma HLS pipeline II=3
+#pragma HLS pipeline II=4
         ans += shift_reg[i] * h[i];
     }
     *y = ans;

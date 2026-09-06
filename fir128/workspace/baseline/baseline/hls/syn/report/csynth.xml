@@ -676,8 +676,8 @@
         <Pragma type="interface" status="valid" location="../../fir.cpp:27" parentFunction="fir" variable="x" isDirective="0" options="mode=s_axilite port=x"/>
         <Pragma type="interface" status="valid" location="../../fir.cpp:28" parentFunction="fir" variable="return" isDirective="0" options="mode=s_axilite port=return"/>
         <Pragma type="interface" status="valid" location="../../fir.cpp:29" parentFunction="fir" variable="return" isDirective="0" options="mode=ap_ctrl_chain port=return"/>
-        <Pragma type="pipeline" status="valid" location="../../fir.cpp:36" parentFunction="fir" variable="" isDirective="0" options="ii=3"/>
-        <Pragma type="pipeline" status="valid" location="../../fir.cpp:42" parentFunction="fir" variable="" isDirective="0" options="ii=3"/>
+        <Pragma type="pipeline" status="valid" location="../../fir.cpp:36" parentFunction="fir" variable="" isDirective="0" options="ii=4"/>
+        <Pragma type="pipeline" status="valid" location="../../fir.cpp:42" parentFunction="fir" variable="" isDirective="0" options="ii=4"/>
         <Pragma type="loop_tripcount" status="implemented" location="fir.cpp:32" parentFunction="fir_pipeline_vitis_loop_41_2" variable="" isDirective="0" options="max=128 min=128 avg=128"/>
         <Pragma type="loop_tripcount" status="implemented" location="fir.cpp:35" parentFunction="fir_pipeline_vitis_loop_35_1" variable="" isDirective="0" options="max=127 min=127 avg=127"/>
     </PragmaReport>
