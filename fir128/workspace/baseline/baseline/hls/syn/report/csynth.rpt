@@ -4,7 +4,7 @@
 == Synthesis Summary Report of 'fir'
 ================================================================
 + General Information: 
-    * Date:           Sun Sep  6 13:23:33 2026
+    * Date:           Sun Sep  6 13:25:33 2026
     * Version:        2026.1 (Build 6493734 on Jun 16 2026)
     * Project:        baseline
     * Solution:       hls (Vitis Kernel Flow Target)
@@ -92,7 +92,7 @@
 |  + fir_Pipeline_VITIS_LOOP_67_2 | 2   |        |           |       |        |         |
 |    icmp_ln67_fu_96_p2           |     |        | icmp_ln67 | seteq | auto   | 0       |
 |    add_ln67_fu_102_p2           |     |        | add_ln67  | add   | fabric | 0       |
-|    mul_6s_32s_32_1_1_U2         | 2   |        | mul_ln71  | mul   | auto   | 0       |
+|    mul_6s_32s_32_1_1_U2         | 2   |        | mul_ln70  | mul   | auto   | 0       |
 |    ans_1_fu_122_p2              |     |        | ans_1     | add   | fabric | 0       |
 +---------------------------------+-----+--------+-----------+-------+--------+---------+
 
@@ -123,8 +123,8 @@
 | INTERFACE | mode=s_axilite port=x          | in fir (../../fir.cpp:27) |
 | INTERFACE | mode=s_axilite port=return     | in fir (../../fir.cpp:28) |
 | INTERFACE | mode=ap_ctrl_chain port=return | in fir (../../fir.cpp:29) |
-| PIPELINE  | ii=2                           | in fir (../../fir.cpp:58) |
-| PIPELINE  | ii=2                           | in fir (../../fir.cpp:69) |
+| PIPELINE  | ii=3                           | in fir (../../fir.cpp:58) |
+| PIPELINE  | ii=3                           | in fir (../../fir.cpp:69) |
 +-----------+--------------------------------+---------------------------+
 
 

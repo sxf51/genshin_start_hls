@@ -443,8 +443,8 @@
             <BindNodes>
                 <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_67_2" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln67_fu_96_p2" SOURCE="fir.cpp:67" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln67" VISIBLE="false"/>
                 <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_67_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln67_fu_102_p2" SOURCE="fir.cpp:67" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln67" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op mul" DSP="2" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_67_2" OPTYPE="mul" PRAGMA="" RTLNAME="mul_6s_32s_32_1_1_U2" SOURCE="fir.cpp:71" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln71" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_67_2" OPTYPE="add" PRAGMA="" RTLNAME="ans_1_fu_122_p2" SOURCE="fir.cpp:71" STORAGESUBTYPE="" URAM="0" VARIABLE="ans_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op mul" DSP="2" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_67_2" OPTYPE="mul" PRAGMA="" RTLNAME="mul_6s_32s_32_1_1_U2" SOURCE="fir.cpp:70" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln70" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_67_2" OPTYPE="add" PRAGMA="" RTLNAME="ans_1_fu_122_p2" SOURCE="fir.cpp:70" STORAGESUBTYPE="" URAM="0" VARIABLE="ans_1" VISIBLE="true"/>
                 <BindNode BINDID="17179869188" BINDTYPE="storage" BRAM="1" BUNDLEDNAME="" CE_REG="N" DISPNAME="bind_storage rom_1p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="rom_1p" PRAGMA="" RTLNAME="p_const_Z3firPii_h_U" SOURCE="" STORAGESIZE="32 128 1" STORAGESUBTYPE="" STORAGEUSAGE="rom_1p" URAM="0" VARIABLE="p_const_Z3firPii_h" VISIBLE="true"/>
             </BindNodes>
         </Module>
@@ -676,8 +676,8 @@
         <Pragma type="interface" status="valid" location="../../fir.cpp:27" parentFunction="fir" variable="x" isDirective="0" options="mode=s_axilite port=x"/>
         <Pragma type="interface" status="valid" location="../../fir.cpp:28" parentFunction="fir" variable="return" isDirective="0" options="mode=s_axilite port=return"/>
         <Pragma type="interface" status="valid" location="../../fir.cpp:29" parentFunction="fir" variable="return" isDirective="0" options="mode=ap_ctrl_chain port=return"/>
-        <Pragma type="pipeline" status="valid" location="../../fir.cpp:58" parentFunction="fir" variable="" isDirective="0" options="ii=2"/>
-        <Pragma type="pipeline" status="valid" location="../../fir.cpp:69" parentFunction="fir" variable="" isDirective="0" options="ii=2"/>
+        <Pragma type="pipeline" status="valid" location="../../fir.cpp:58" parentFunction="fir" variable="" isDirective="0" options="ii=3"/>
+        <Pragma type="pipeline" status="valid" location="../../fir.cpp:69" parentFunction="fir" variable="" isDirective="0" options="ii=3"/>
         <Pragma type="loop_tripcount" status="implemented" location="fir.cpp:34" parentFunction="fir_pipeline_vitis_loop_67_2" variable="" isDirective="0" options="max=128 min=128 avg=128"/>
         <Pragma type="loop_tripcount" status="implemented" location="fir.cpp:56" parentFunction="fir_pipeline_vitis_loop_56_1" variable="" isDirective="0" options="max=127 min=127 avg=127"/>
     </PragmaReport>
