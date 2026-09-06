@@ -32,16 +32,15 @@ void fir (
     acc_t ans = 0;
 
     // shift + MAC
-    for (int i = N - 1; i > 0; i--) {
-#pragma HLS pipeline II=4
-        shift_reg[i] = shift_reg[i - 1];
-    }
-    shift_reg[0] = x;
-
-    for (int i = 0; i < N; i++) {
-#pragma HLS pipeline II=4
+    #pragma HLS pipeline
+    for (int i = N - 1; i >= 0; i--) {
+        if (i == 0)
+            shift_reg[0] = x;
+        else
+            shift_reg[i] = shift_reg[i - 1];
         ans += shift_reg[i] * h[i];
     }
+    
     *y = ans;
 }
 
