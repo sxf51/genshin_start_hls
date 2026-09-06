@@ -1,3 +1,7 @@
 {
-    "clangd.fallbackFlags": []
+    "clangd.fallbackFlags": [
+        "-I/home/lipuze/amdfpga/2026.1/Vitis/include",
+        "-I/home/lipuze/amdfpga/2026.1/Vitis/include/etc",
+        "-I/home/lipuze/amdfpga/2026.1/Vitis/lnx64/tools/auto_cc/include"
+    ]
 }
