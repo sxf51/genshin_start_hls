@@ -4,7 +4,7 @@
 == Synthesis Summary Report of 'fir'
 ================================================================
 + General Information: 
-    * Date:           Sun Sep  6 14:53:05 2026
+    * Date:           Sun Sep  6 14:58:15 2026
     * Version:        2026.1 (Build 6493734 on Jun 16 2026)
     * Project:        baseline
     * Solution:       hls (Vitis Kernel Flow Target)
@@ -13,16 +13,16 @@
     
 
 * Performance & Resource Estimates: 
-+---------------------------------+------+---------------+----------+---------+------+----------+---------+-----------+------+---------+---------+-----------+-----------+-----+
-|             Modules             | Issue|               | Iteration|         | Trip |          |       Latency       |      |         |         |           |           |     |
-|             & Loops             | Type | Violation Type|  Latency | Interval| Count| Pipelined| (cycles)|    (ns)   | Slack|  BRAM   |   DSP   |     FF    |    LUT    | URAM|
-+---------------------------------+------+---------------+----------+---------+------+----------+---------+-----------+------+---------+---------+-----------+-----------+-----+
-|+ fir                            |     -|              -|         -|      201|     -|        no|      200|  2.000e+03|  0.96|   9 (3%)|  4 (~0%)|  220 (~0%)|  788 (~0%)|    -|
-| + fir_Pipeline_VITIS_LOOP_58_1  |     -|              -|         -|      129|     -|       yes|      129|  1.290e+03|  4.30|        -|        -|   19 (~0%)|   86 (~0%)|    -|
-|  o VITIS_LOOP_58_1              |     -|              -|         2|        1|   127|       yes|      127|  1.270e+03|  7.30|        -|        -|          -|          -|    -|
-| + fir_Pipeline_VITIS_LOOP_69_2  |     -|              -|         -|       66|     -|       yes|       66|    660.000|  0.96|  1 (~0%)|  4 (~0%)|   45 (~0%)|  206 (~0%)|    -|
-|  o VITIS_LOOP_69_2              |     -|              -|         2|        1|    64|       yes|       64|    640.000|  7.30|        -|        -|          -|          -|    -|
-+---------------------------------+------+---------------+----------+---------+------+----------+---------+-----------+------+---------+---------+-----------+-----------+-----+
++---------------------------------+------+---------------+----------+---------+------+----------+---------+-----------+------+---------+---------+-----------+------------+-----+
+|             Modules             | Issue|               | Iteration|         | Trip |          |       Latency       |      |         |         |           |            |     |
+|             & Loops             | Type | Violation Type|  Latency | Interval| Count| Pipelined| (cycles)|    (ns)   | Slack|  BRAM   |   DSP   |     FF    |     LUT    | URAM|
++---------------------------------+------+---------------+----------+---------+------+----------+---------+-----------+------+---------+---------+-----------+------------+-----+
+|+ fir                            |     -|              -|         -|      202|     -|        no|      201|  2.010e+03|  0.37|   9 (3%)|  4 (~0%)|  295 (~0%)|  1125 (~0%)|    -|
+| + fir_Pipeline_VITIS_LOOP_58_1  |     -|              -|         -|      129|     -|       yes|      129|  1.290e+03|  4.30|        -|        -|   19 (~0%)|    86 (~0%)|    -|
+|  o VITIS_LOOP_58_1              |     -|              -|         2|        1|   127|       yes|      127|  1.270e+03|  7.30|        -|        -|          -|           -|    -|
+| + fir_Pipeline_VITIS_LOOP_69_2  |     -|              -|         -|       67|     -|       yes|       67|    670.000|  0.37|  1 (~0%)|  4 (~0%)|  120 (~0%)|   543 (~0%)|    -|
+|  o VITIS_LOOP_69_2              |     -|              -|         4|        2|    32|       yes|       65|    650.000|  7.30|        -|        -|          -|           -|    -|
++---------------------------------+------+---------------+----------+---------+------+----------+---------+-----------+------+---------+---------+-----------+------------+-----+
     Name Prefix: '+' for module, 'o' for loop, '*' for dataflow
 
 
@@ -93,9 +93,15 @@
 |  + fir_Pipeline_VITIS_LOOP_69_2 | 4   |        |            |           |                          |         |
 |    sparsemux_9_2_32_1_1_U9      |     |        | tmp_1      | sparsemux | compactencoding_dontcare | 0       |
 |    sparsemux_9_2_32_1_1_U10     |     |        | tmp_2      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_9_2_32_1_1_U11     |     |        | tmp_3      | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_9_2_32_1_1_U12     |     |        | tmp_4      | sparsemux | compactencoding_dontcare | 0       |
 |    mul_6s_32s_32_1_1_U7         | 2   |        | mul_ln72   | mul       | auto                     | 0       |
-|    mul_6s_32s_32_1_1_U8         | 2   |        | mul_ln72_1 | mul       | auto                     | 0       |
-|    add_ln69_fu_319_p2           |     |        | add_ln69   | add       | fabric                   | 0       |
+|    mul_6s_32s_32_1_1_U7         | 2   |        | mul_ln72_1 | mul       | auto                     | 0       |
+|    mul_6s_32s_32_1_1_U8         | 2   |        | mul_ln72_2 | mul       | auto                     | 0       |
+|    mul_6s_32s_32_1_1_U8         | 2   |        | mul_ln72_3 | mul       | auto                     | 0       |
+|    add_ln72_fu_536_p2           |     |        | add_ln72   | add       | fabric                   | 0       |
+|    add_ln72_1_fu_603_p2         |     |        | add_ln72_1 | add       | fabric                   | 0       |
+|    add_ln69_fu_542_p2           |     |        | add_ln69   | add       | fabric                   | 0       |
 +---------------------------------+-----+--------+------------+-----------+--------------------------+---------+
 
 
@@ -125,7 +131,7 @@
 | Type            | Options                            | Location                  | Messages        |
 +-----------------+------------------------------------+---------------------------+-----------------+
 | ARRAY_PARTITION | variable=shift_reg block factor =4 | in fir (../../fir.cpp:34) | Not implemented |
-| UNROLL          | factor=2                           | in fir (../../fir.cpp:70) | Not implemented |
+| UNROLL          | factor=4                           | in fir (../../fir.cpp:70) | Not implemented |
 +-----------------+------------------------------------+---------------------------+-----------------+
 
 * Inferred Pragmas
@@ -141,7 +147,7 @@
 | Type            | Options                                                      | Location            |
 +-----------------+--------------------------------------------------------------+---------------------+
 | ARRAY_PARTITION | dim=1 type=block factor=4 variable=fir(int*, int)::shift_reg | in fir (fir.cpp:34) |
-| UNROLL          | factor=2                                                     | in fir (fir.cpp:70) |
+| UNROLL          | factor=4                                                     | in fir (fir.cpp:70) |
 +-----------------+--------------------------------------------------------------+---------------------+
 
 * Valid Pragma Syntax
