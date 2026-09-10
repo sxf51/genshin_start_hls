@@ -2,10 +2,10 @@
     <item name="Total Instructions per Compilation Phase">
         <table>
             <keys size="4">Phase, Step, Instructions, Description</keys>
-            <column name="Compile/Link">, 2734, After all functions are compiled and linked into a single design</column>
+            <column name="Compile/Link">, 2765, After all functions are compiled and linked into a single design</column>
             <column name="">, , </column>
             <column name="Unroll/Inline">, , After user unroll and inline pragmas are applied</column>
-            <column name="">(1) unroll,   776, user unroll pragmas are applied</column>
+            <column name="">(1) unroll,   777, user unroll pragmas are applied</column>
             <column name="">(2) simplification,   645, simplification of applied user unroll pragmas</column>
             <column name="">(3) inline,   518, user inline pragmas are applied</column>
             <column name="">(4) simplification,   518, simplification of applied user inline pragmas</column>
@@ -32,7 +32,7 @@
         <hiertable>
             <header size="7" col0="Function" col1="Location" col2="Compile/Link" col3="Unroll/Inline" col4="Array/Struct" col5="Performance" col6="HW Transforms"/>
             <rows>
-                <row id="0" col0="fir" col1="fir.cpp:15" col2="2734" col3="518" col4="518" col5="518" col6="522"/>
+                <row id="0" col0="fir" col1="fir.cpp:15" col2="2765" col3="518" col4="518" col5="518" col6="522"/>
             </rows>
             <notes/>
         </hiertable>

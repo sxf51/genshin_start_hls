@@ -30,7 +30,7 @@ void fir (
 
     
 	
-	static data_t shift_reg[N];
+	static data_t shift_reg[N] = {0};
     acc_t ans = 0;
 
     // shift + MAC
@@ -41,6 +41,18 @@ void fir (
     }
     shift_reg[0] = x;
     ans += shift_reg[0] * h[0];
+//     // shift + MAC
+//     for (int i = N - 1; i > 0; i--) {
+// #pragma HLS pipeline 
+//         shift_reg[i] = shift_reg[i - 1];
+//     }
+//     shift_reg[0] = x;
+
+//     for (int i = 0; i < N; i++) {
+// #pragma HLS pipeline 
+//         ans += shift_reg[i] * h[i];
+//     }
+
 
     *y = ans;
 
